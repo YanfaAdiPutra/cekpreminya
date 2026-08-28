@@ -86,7 +86,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
         <div className="mt-4 flex flex-wrap gap-3">
           <Link
             href="/cek-premi"
-            className="rounded-full bg-emerald-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+            className="rounded-full bg-brand px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
           >
             Cek Estimasi Premi
           </Link>
@@ -96,7 +96,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             )}
             target="_blank"
             rel="noopener noreferrer"
-            className="rounded-full border border-slate-300 px-5 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:border-emerald-600 hover:text-emerald-700"
+            className="rounded-full border border-whatsapp px-5 py-2.5 text-sm font-semibold text-whatsapp-dark transition-colors hover:bg-whatsapp hover:text-white"
           >
             Tanya via WhatsApp
           </a>

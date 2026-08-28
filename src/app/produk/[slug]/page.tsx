@@ -44,10 +44,10 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   return (
     <div>
-      <section className="bg-emerald-50">
+      <section className="bg-brand/5">
         <div className="mx-auto grid max-w-6xl items-center gap-8 px-4 py-14 lg:grid-cols-2">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">
+            <p className="text-sm font-semibold uppercase tracking-wide text-brand-cyan">
               {product.category}
             </p>
             <h1 className="mt-2 text-3xl font-extrabold text-slate-900 sm:text-4xl">
@@ -59,7 +59,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
               href={buildWaLink(waMessage)}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+              className="mt-6 inline-block rounded-full bg-whatsapp px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-whatsapp-dark"
             >
               Konsultasi via WhatsApp
             </a>
@@ -80,7 +80,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <ul className="mt-6 space-y-4">
           {product.highlights.map((highlight) => (
             <li key={highlight} className="flex items-start gap-3">
-              <span className="mt-1 text-emerald-600">✔</span>
+              <span className="mt-1 text-brand-cyan">✔</span>
               <span className="text-slate-700">{highlight}</span>
             </li>
           ))}
@@ -92,7 +92,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           </p>
           <Link
             href="/cek-premi"
-            className="mt-3 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+            className="mt-3 inline-block rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
           >
             Cek Estimasi Premi {product.shortName}
           </Link>

@@ -21,10 +21,10 @@ const TESTIMONIALS = [
 export default function HomePage() {
   return (
     <div>
-      <section className="bg-gradient-to-b from-emerald-50 to-white">
+      <section className="bg-gradient-to-b from-brand/5 to-white">
         <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 py-16 lg:grid-cols-2 lg:py-24">
           <div>
-            <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">
+            <p className="text-sm font-semibold uppercase tracking-wide text-brand-cyan">
               Agen Resmi MSIG Life
             </p>
             <h1 className="mt-3 text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl">
@@ -38,7 +38,7 @@ export default function HomePage() {
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
                 href="/cek-premi"
-                className="rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+                className="rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
                 Cek Estimasi Premi
               </Link>
@@ -46,7 +46,7 @@ export default function HomePage() {
                 href={SITE.igLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition-colors hover:border-emerald-600 hover:text-emerald-700"
+                className="rounded-full border border-slate-300 px-6 py-3 text-sm font-semibold text-slate-700 transition-colors hover:border-brand-cyan hover:text-brand-cyan"
               >
                 Lihat Instagram {SITE.igHandle}
               </a>
@@ -139,17 +139,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-emerald-700 py-16 text-white">
+      <section className="bg-brand py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <h2 className="text-3xl font-bold">Belum Tahu Perlu Asuransi Apa?</h2>
-          <p className="mt-3 text-emerald-50">
+          <p className="mt-3 text-white/80">
             Isi form cek premi, atau langsung chat WhatsApp untuk konsultasi
             gratis dengan {SITE.agentName}.
           </p>
           <div className="mt-6 flex flex-wrap justify-center gap-3">
             <Link
               href="/cek-premi"
-              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-emerald-700 transition-colors hover:bg-emerald-50"
+              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand transition-colors hover:bg-white/90"
             >
               Cek Estimasi Premi
             </Link>
@@ -157,7 +157,7 @@ export default function HomePage() {
               href={SITE.waLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-600"
+              className="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-whatsapp hover:bg-whatsapp"
             >
               Chat WhatsApp Sekarang
             </a>

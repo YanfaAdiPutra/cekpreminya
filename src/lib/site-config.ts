@@ -28,14 +28,9 @@ export const withBasePath = (path: string): string => {
 
 export const NAV_LINKS: NavLink[] = [
   { href: "/", label: "Beranda" },
-  { href: "/cek-premi", label: "Cek Premi" },
-  { href: "/produk/asuransi-jiwa", label: "Asuransi Jiwa" },
-  { href: "/produk/asuransi-kesehatan", label: "Asuransi Kesehatan" },
-  { href: "/produk/asuransi-kritis", label: "Penyakit Kritis" },
-  { href: "/produk/unit-link-syariah", label: "Unit Link Syariah" },
   { href: "/artikel", label: "Artikel" },
-  { href: "/tentang", label: "Tentang" },
   { href: "/faq", label: "FAQ" },
+  { href: "/tentang", label: "Tentang" },
   { href: "/kontak", label: "Kontak" },
 ];
 

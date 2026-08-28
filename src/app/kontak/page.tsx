@@ -24,12 +24,12 @@ export default function KontakPage() {
           )}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col gap-2 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 transition-shadow hover:shadow-md"
+          className="flex flex-col gap-2 rounded-2xl border border-whatsapp/30 bg-whatsapp/5 p-6 transition-shadow hover:shadow-md"
         >
           <span className="text-2xl">💬</span>
           <span className="text-lg font-bold text-slate-900">WhatsApp</span>
           <span className="text-sm text-slate-600">{SITE.waNumber}</span>
-          <span className="mt-2 text-sm font-semibold text-emerald-700">
+          <span className="mt-2 text-sm font-semibold text-whatsapp-dark">
             Chat sekarang &rarr;
           </span>
         </a>
@@ -38,12 +38,12 @@ export default function KontakPage() {
           href={SITE.igLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex flex-col gap-2 rounded-2xl border border-slate-200 bg-white p-6 transition-shadow hover:shadow-md"
+          className="flex flex-col gap-2 rounded-2xl border border-brand-cyan/30 bg-brand-cyan/5 p-6 transition-shadow hover:shadow-md"
         >
           <span className="text-2xl">📸</span>
           <span className="text-lg font-bold text-slate-900">Instagram</span>
           <span className="text-sm text-slate-600">{SITE.igHandle}</span>
-          <span className="mt-2 text-sm font-semibold text-emerald-700">
+          <span className="mt-2 text-sm font-semibold text-brand-cyan">
             Kunjungi profil &rarr;
           </span>
         </a>

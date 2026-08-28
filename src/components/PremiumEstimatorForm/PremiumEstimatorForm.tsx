@@ -104,7 +104,7 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
             value={name}
             onChange={handleNameChange}
             placeholder="Nama Anda"
-            className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-emerald-600 focus:outline-none"
+            className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-brand focus:outline-none"
           />
         </div>
 
@@ -122,7 +122,7 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
             max={65}
             value={input.age}
             onChange={handleAgeChange}
-            className="mt-2 w-full accent-emerald-600"
+            className="mt-2 w-full accent-brand"
           />
         </div>
 
@@ -138,7 +138,7 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
               id="gender"
               value={input.gender}
               onChange={handleGenderChange}
-              className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-emerald-600 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-brand focus:outline-none"
             >
               <option value="pria">Pria</option>
               <option value="wanita">Wanita</option>
@@ -156,7 +156,7 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
               id="productType"
               value={input.productType}
               onChange={handleProductChange}
-              className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-emerald-600 focus:outline-none"
+              className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-brand focus:outline-none"
             >
               {PRODUCT_OPTIONS.map((option) => (
                 <option key={option.value} value={option.value}>
@@ -178,7 +178,7 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
             id="coverageTier"
             value={input.coverageTier}
             onChange={handleTierChange}
-            className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-emerald-600 focus:outline-none"
+            className="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-sm focus:border-brand focus:outline-none"
           >
             <option value="dasar">Dasar</option>
             <option value="menengah">Menengah</option>
@@ -188,18 +188,18 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
 
         <button
           type="submit"
-          className="w-full rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+          className="w-full rounded-full bg-brand px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
         >
           Cek Estimasi Premi
         </button>
       </form>
 
       {result ? (
-        <div className="mt-6 rounded-2xl border border-emerald-200 bg-emerald-50 p-6 sm:p-8">
-          <p className="text-sm font-semibold uppercase tracking-wide text-emerald-700">
+        <div className="mt-6 rounded-2xl border border-brand/20 bg-brand/5 p-6 sm:p-8">
+          <p className="text-sm font-semibold uppercase tracking-wide text-brand-cyan">
             Estimasi Premi Bulanan
           </p>
-          <p className="mt-2 text-3xl font-extrabold text-emerald-800">
+          <p className="mt-2 text-3xl font-extrabold text-brand">
             {formatRupiah(result.minMonthly)} -{" "}
             {formatRupiah(result.maxMonthly)}
           </p>
@@ -213,7 +213,7 @@ export const PremiumEstimatorForm = (): React.ReactElement => {
             href={buildWaLink(waMessage)}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-5 inline-block rounded-full bg-emerald-600 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
+            className="mt-5 inline-block rounded-full bg-whatsapp px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-whatsapp-dark"
           >
             Konfirmasi Penawaran Resmi via WhatsApp
           </a>

@@ -15,7 +15,7 @@ export default function TentangPage() {
       </h1>
 
       <div className="mt-8 grid gap-8 sm:grid-cols-[200px_1fr] sm:items-start">
-        <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-emerald-100 shadow-sm">
+        <div className="relative h-48 w-48 overflow-hidden rounded-full border-4 border-brand/20 shadow-sm">
           <Image
             src={withBasePath("/images/agent-clients.jpg")}
             alt={`${SITE.agentName}, ${SITE.agentTitle}`}
@@ -25,7 +25,7 @@ export default function TentangPage() {
         </div>
         <div>
           <h2 className="text-xl font-bold text-slate-900">{SITE.agentName}</h2>
-          <p className="text-emerald-700">{SITE.agentTitle}</p>
+          <p className="text-brand">{SITE.agentTitle}</p>
           <p className="mt-4 text-slate-600">
             {SITE.name} adalah kanal digital dari {SITE.agentName}, agen resmi
             MSIG Life yang berfokus membantu keluarga Indonesia memilih
@@ -64,7 +64,7 @@ export default function TentangPage() {
         </div>
       </div>
 
-      <div className="mt-12 rounded-2xl bg-emerald-700 p-8 text-center text-white">
+      <div className="mt-12 rounded-2xl bg-brand p-8 text-center text-white">
         <p className="text-lg font-semibold">
           Punya pertanyaan seputar asuransi MSIG Life?
         </p>
@@ -74,7 +74,7 @@ export default function TentangPage() {
           )}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-4 inline-block rounded-full bg-white px-6 py-3 text-sm font-semibold text-emerald-700 transition-colors hover:bg-emerald-50"
+          className="mt-4 inline-block rounded-full bg-white px-6 py-3 text-sm font-semibold text-whatsapp-dark transition-colors hover:bg-white/90"
         >
           Chat WhatsApp {SITE.agentName}
         </a>

@@ -9,7 +9,7 @@ export const Footer = (): React.ReactElement => {
       <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-slate-600">
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
-            <p className="text-base font-bold text-emerald-700">{SITE.name}</p>
+            <p className="text-base font-bold text-brand">{SITE.name}</p>
             <p className="mt-2">{SITE.tagline}</p>
             <p className="mt-2 text-xs text-slate-500">
               {SITE.agentName} &middot; {SITE.agentTitle}
@@ -18,9 +18,9 @@ export const Footer = (): React.ReactElement => {
           <div>
             <p className="font-semibold text-slate-800">Navigasi</p>
             <ul className="mt-2 space-y-1">
-              {NAV_LINKS.slice(0, 6).map((link) => (
+              {NAV_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="hover:text-emerald-700">
+                  <Link href={link.href} className="hover:text-brand">
                     {link.label}
                   </Link>
                 </li>
@@ -35,7 +35,7 @@ export const Footer = (): React.ReactElement => {
                   href={SITE.waLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-emerald-700"
+                  className="hover:text-whatsapp"
                 >
                   WhatsApp: {SITE.waNumber}
                 </a>
@@ -45,7 +45,7 @@ export const Footer = (): React.ReactElement => {
                   href={SITE.igLink}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-emerald-700"
+                  className="hover:text-brand-cyan"
                 >
                   Instagram: {SITE.igHandle}
                 </a>

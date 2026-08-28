@@ -23,14 +23,14 @@ export const ProductCard = ({
         />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-5">
-        <span className="text-xs font-semibold uppercase tracking-wide text-emerald-600">
+        <span className="text-xs font-semibold uppercase tracking-wide text-brand-cyan">
           {product.category}
         </span>
         <h3 className="text-lg font-bold text-slate-900">
           {product.shortName}
         </h3>
         <p className="text-sm text-slate-600">{product.description}</p>
-        <span className="mt-auto pt-2 text-sm font-semibold text-emerald-700">
+        <span className="mt-auto pt-2 text-sm font-semibold text-brand">
           Pelajari lebih lanjut &rarr;
         </span>
       </div>

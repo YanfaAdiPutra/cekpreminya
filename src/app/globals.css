@@ -10,6 +10,14 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* MSIG Life brand palette, sourced from msiglife.co.id and the
+     @cekpreminya Instagram (navy + cyan, white ground). */
+  --color-brand: #1b1464;
+  --color-brand-dark: #130f4a;
+  --color-brand-cyan: #00a7db;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #1ebe5d;
 }
 
 body {

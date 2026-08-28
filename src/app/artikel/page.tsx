@@ -35,7 +35,7 @@ export default function ArtikelIndexPage() {
               {article.title}
             </h2>
             <p className="mt-2 text-sm text-slate-600">{article.description}</p>
-            <span className="mt-3 inline-block text-sm font-semibold text-emerald-700">
+            <span className="mt-3 inline-block text-sm font-semibold text-brand">
               Baca selengkapnya &rarr;
             </span>
           </Link>
