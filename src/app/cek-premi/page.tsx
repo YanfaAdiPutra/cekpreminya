@@ -4,7 +4,7 @@ import { PremiumEstimatorForm } from "@/components/PremiumEstimatorForm";
 export const metadata: Metadata = {
   title: "Cek Premi Asuransi MSIG Life",
   description:
-    "Cek estimasi premi asuransi jiwa, kesehatan, penyakit kritis, dan unit link syariah MSIG Life sesuai usia dan kebutuhan Anda.",
+    "Cek estimasi premi asuransi jiwa (warisan), kesehatan, dana pensiun, dan tunai sakit kritis MSIG Life sesuai usia dan kebutuhan Anda.",
 };
 
 export default function CekPremiPage() {

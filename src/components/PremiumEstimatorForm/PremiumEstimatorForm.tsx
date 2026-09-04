@@ -10,10 +10,10 @@ import {
 } from "./estimateLogic";
 
 const PRODUCT_OPTIONS: { value: ProductType; label: string }[] = [
-  { value: "asuransi-jiwa", label: "Asuransi Jiwa" },
+  { value: "asuransi-jiwa", label: "Asuransi Jiwa (Warisan)" },
   { value: "asuransi-kesehatan", label: "Asuransi Kesehatan" },
-  { value: "asuransi-kritis", label: "Asuransi Penyakit Kritis" },
-  { value: "unit-link-syariah", label: "Unit Link Syariah" },
+  { value: "asuransi-dana-pensiun", label: "Asuransi Dana Pensiun" },
+  { value: "asuransi-kritis", label: "Asuransi Tunai Sakit Kritis" },
 ];
 
 const DEFAULT_INPUT: EstimatorInput = {

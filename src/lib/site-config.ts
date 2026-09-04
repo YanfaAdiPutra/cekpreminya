@@ -8,8 +8,10 @@ export const SITE = {
   agentName: "Kharisnantyo",
   agentTitle: "Agen Asuransi MSIG Life",
   tagline: "Premi Hemat, Pelayanan Juara, Fast Response",
+  freedomLine:
+    "Tempat dimana kamu dibebaskan bertanya dan diberi jawaban jujur atas keingintahuanmu.",
   description:
-    "Cek estimasi premi asuransi MSIG Life dan konsultasi langsung dengan agen resmi. Asuransi jiwa, kesehatan, penyakit kritis, dan unit link syariah.",
+    "Cek estimasi premi asuransi MSIG Life dan konsultasi langsung dengan agen resmi. Asuransi jiwa (warisan), kesehatan, dana pensiun, dan tunai sakit kritis.",
   waNumber: "6281188881419",
   waLink: "https://wa.me/6281188881419",
   igHandle: "@cekpreminya",
@@ -47,58 +49,60 @@ export interface ProductSummary {
 export const PRODUCTS: ProductSummary[] = [
   {
     slug: "asuransi-jiwa",
-    name: "Smile Wealth Protection (SMART)",
-    shortName: "Asuransi Jiwa",
+    name: "Asuransi Jiwa (Warisan)",
+    shortName: "Asuransi Jiwa (Warisan)",
     category: "Proteksi Jiwa",
     description:
-      "Perlindungan jiwa menyeluruh yang memastikan keluarga tetap terjaga secara finansial apa pun yang terjadi.",
+      "Perencanaan kepastian dana yang akan diterima oleh ahli waris saat nasabah meninggal dunia.",
     image: "agent-clients.jpg",
     highlights: [
-      "Santunan meninggal dunia untuk keluarga",
-      "Bisa disesuaikan dengan usia dan tahap hidup",
-      "Cocok sebagai fondasi proteksi keuangan keluarga",
+      "Biaya balik nama aset dari orang tua / pasangan",
+      "Biaya kebutuhan hidup sehari-hari keluarga yang ditinggalkan",
+      "Biaya pendidikan anak dan biaya memulai usaha",
+      "Alokasi deposito untuk penghidupan dari bunga bank",
     ],
   },
   {
     slug: "asuransi-kesehatan",
-    name: "Eka Sehat & Hospital Cash Plan",
+    name: "Asuransi Kesehatan",
     shortName: "Asuransi Kesehatan",
     category: "Proteksi Kesehatan",
     description:
-      "Biaya rumah sakit dan rawat inap ditanggung, tersedia opsi cashless maupun reimbursement.",
+      "Pertanggungan biaya-biaya yang muncul dari perawatan di Rumah Sakit, dibayarkan sesuai tagihan.",
     image: "health-consult.jpg",
     highlights: [
-      "Opsi cashless di rumah sakit rekanan",
-      "Santunan harian rawat inap (Hospital Cash Plan)",
-      "Reimbursement untuk fleksibilitas pilihan RS",
+      "Dibayarkan sesuai tagihan Rumah Sakit sesuai ketentuan polis",
+      "Pilihan pertanggungan mulai dari Rp 3 miliar hingga Rp 47,5 miliar",
+      "Tersedia jaringan tim rekanan di berbagai Rumah Sakit",
+    ],
+  },
+  {
+    slug: "asuransi-dana-pensiun",
+    name: "Asuransi Dana Pensiun",
+    shortName: "Asuransi Dana Pensiun",
+    category: "Proteksi & Tabungan Hari Tua",
+    description:
+      "Perencanaan kepastian dana yang akan diterima pemegang polis saat mencapai usia pensiun pilihan.",
+    image: "couple-finance.jpg",
+    highlights: [
+      "Dana cair saat mencapai usia pilihan: 55 / 60 / 75 tahun",
+      "Jika nasabah meninggal sebelum usia tersebut, dana diterima ahli waris",
+      "Cocok untuk perencanaan hari tua sejak dini",
     ],
   },
   {
     slug: "asuransi-kritis",
-    name: "Smile Critical Ultima Care (SECURE)",
-    shortName: "Penyakit Kritis",
+    name: "Asuransi Tunai Sakit Kritis",
+    shortName: "Tunai Sakit Kritis",
     category: "Proteksi Penyakit Kritis",
     description:
-      "Santunan tunai saat terdiagnosis penyakit kritis, membantu biaya pengobatan tanpa mengganggu tabungan.",
+      "Perencanaan kepastian dana tunai yang diterima pemegang polis saat nasabah terdiagnosa sakit kritis.",
     image: "elderly-consult.jpg",
     highlights: [
-      "Santunan tunai saat diagnosis penyakit kritis",
-      "Membantu menutup biaya di luar tanggungan BPJS",
-      "Penting untuk usia 35+ atau riwayat keluarga penyakit kritis",
-    ],
-  },
-  {
-    slug: "unit-link-syariah",
-    name: "Eka Link & Smile Plan Maxima Syariah",
-    shortName: "Unit Link Syariah",
-    category: "Proteksi & Investasi Syariah",
-    description:
-      "Kombinasi proteksi jiwa dan investasi yang dikelola sesuai prinsip syariah.",
-    image: "couple-finance.jpg",
-    highlights: [
-      "Dikelola sesuai prinsip syariah",
-      "Proteksi jiwa + potensi nilai investasi",
-      "Fleksibel untuk perencanaan jangka panjang",
+      "Biaya perawatan dan nutrisi penyembuhan di luar biaya Rumah Sakit",
+      "Biaya kebutuhan hidup sehari-hari selama masa pemulihan",
+      "Biaya operasional usaha yang terus berjalan",
+      "Alokasi untuk kebutuhan tak terduga lainnya",
     ],
   },
 ];

@@ -1,8 +1,8 @@
 export type ProductType =
   | "asuransi-jiwa"
   | "asuransi-kesehatan"
-  | "asuransi-kritis"
-  | "unit-link-syariah";
+  | "asuransi-dana-pensiun"
+  | "asuransi-kritis";
 
 export interface EstimatorInput {
   age: number;
@@ -19,8 +19,8 @@ export interface EstimatorResult {
 const PRODUCT_BASE_RATE: Record<ProductType, number> = {
   "asuransi-jiwa": 120000,
   "asuransi-kesehatan": 180000,
+  "asuransi-dana-pensiun": 200000,
   "asuransi-kritis": 150000,
-  "unit-link-syariah": 250000,
 };
 
 const TIER_MULTIPLIER: Record<EstimatorInput["coverageTier"], number> = {

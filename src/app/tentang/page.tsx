@@ -56,7 +56,7 @@ export default function TentangPage() {
           </p>
         </div>
         <div className="rounded-2xl border border-slate-200 p-6">
-          <h3 className="font-bold text-slate-900">Respons Cepat</h3>
+          <h3 className="font-bold text-slate-900">Respon Cepat</h3>
           <p className="mt-2 text-sm text-slate-600">
             Pertanyaan lewat WhatsApp maupun Instagram dijawab tanpa perlu antre
             di kantor cabang.

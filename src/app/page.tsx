@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { PRODUCTS, SITE, withBasePath } from "@/lib/site-config";
+import { CORE_FAQS } from "@/lib/faqs";
 import { ProductCard } from "@/components/ProductCard";
 
 const TESTIMONIALS = [
@@ -14,7 +15,25 @@ const TESTIMONIALS = [
   },
   {
     name: "Sari, Bekasi",
-    text: "Konsultasi unit link syariah dijelaskan detail, tidak dipaksa buru-buru ambil keputusan.",
+    text: "Konsultasi dana pensiun dijelaskan detail, tidak dipaksa buru-buru ambil keputusan.",
+  },
+];
+
+const VALUE_PROPS = [
+  {
+    title: "Konsultasi Transparan",
+    description:
+      "Penjelasan manfaat, pengecualian, dan biaya disampaikan apa adanya sebelum Anda memutuskan.",
+  },
+  {
+    title: "Pendampingan Klaim",
+    description:
+      "Dibantu dari pengumpulan dokumen hingga proses klaim selesai, termasuk klaim luar negeri.",
+  },
+  {
+    title: "Respon Cepat",
+    description:
+      "Chat WhatsApp direspons cepat, tanpa harus antre ke kantor cabang.",
   },
 ];
 
@@ -30,10 +49,11 @@ export default function HomePage() {
             <h1 className="mt-3 text-4xl font-extrabold leading-tight text-slate-900 sm:text-5xl">
               {SITE.tagline}
             </h1>
-            <p className="mt-4 text-lg text-slate-600">
-              Cek estimasi premi asuransi jiwa, kesehatan, penyakit kritis, dan
-              unit link syariah dari MSIG Life dalam hitungan menit, lalu
-              lanjutkan konsultasi langsung dengan agen resmi.
+            <p className="mt-4 text-lg text-slate-600">{SITE.freedomLine}</p>
+            <p className="mt-2 text-slate-600">
+              Bertanya bebas dan dapatkan jawaban jujur soal asuransi jiwa
+              (warisan), kesehatan, dana pensiun, dan tunai sakit kritis dari
+              MSIG Life, lalu lanjutkan konsultasi langsung dengan agen resmi.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -88,30 +108,71 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="grid gap-6 sm:grid-cols-3">
-            <div className="rounded-2xl bg-white p-6 shadow-sm">
-              <p className="text-2xl">🏆</p>
-              <h3 className="mt-3 font-bold text-slate-900">Premi Hemat</h3>
-              <p className="mt-2 text-sm text-slate-600">
-                Rekomendasi paket disesuaikan kebutuhan dan anggaran, bukan asal
-                jual produk termahal.
-              </p>
-            </div>
-            <div className="rounded-2xl bg-white p-6 shadow-sm">
-              <p className="text-2xl">🏆</p>
-              <h3 className="mt-3 font-bold text-slate-900">Pelayanan Juara</h3>
-              <p className="mt-2 text-sm text-slate-600">
-                Dibantu dari konsultasi awal, pengajuan polis, sampai proses
-                klaim.
-              </p>
-            </div>
-            <div className="rounded-2xl bg-white p-6 shadow-sm">
-              <p className="text-2xl">👍🏻</p>
-              <h3 className="mt-3 font-bold text-slate-900">Fast Response</h3>
-              <p className="mt-2 text-sm text-slate-600">
-                Chat WhatsApp direspons cepat, tanpa harus antre ke kantor
-                cabang.
-              </p>
-            </div>
+            {VALUE_PROPS.map((value) => (
+              <div
+                key={value.title}
+                className="rounded-2xl bg-white p-6 shadow-sm"
+              >
+                <h3 className="font-bold text-slate-900">{value.title}</h3>
+                <p className="mt-2 text-sm text-slate-600">
+                  {value.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-4xl px-4 py-16">
+        <div className="mb-10 text-center">
+          <h2 className="text-3xl font-bold text-slate-900">
+            Hal-Hal yang Sering Ditanyakan
+          </h2>
+        </div>
+        <ul className="space-y-3">
+          {CORE_FAQS.map((faq) => (
+            <li key={faq.question}>
+              <Link
+                href="/faq"
+                className="block rounded-xl border border-slate-200 px-5 py-4 font-medium text-slate-800 transition-colors hover:border-brand hover:text-brand"
+              >
+                + {faq.question}
+              </Link>
+            </li>
+          ))}
+        </ul>
+        <div className="mt-6 text-center">
+          <Link
+            href="/faq"
+            className="text-sm font-semibold text-brand hover:text-brand-dark"
+          >
+            Lihat semua jawabannya &rarr;
+          </Link>
+        </div>
+      </section>
+
+      <section className="bg-brand py-16 text-white">
+        <div className="mx-auto max-w-4xl px-4 text-center">
+          <h2 className="text-3xl font-bold">Langsung Tuliskan Pertanyaanmu</h2>
+          <p className="mt-3 text-white/80">
+            Kami percaya keputusan asuransi terbaik lahir dari pertanyaan yang
+            dijawab jujur, bukan sekadar penawaran.
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-3">
+            <Link
+              href="/cek-premi"
+              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand transition-colors hover:bg-white/90"
+            >
+              Cek Estimasi Premi
+            </Link>
+            <a
+              href={SITE.waLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-whatsapp hover:bg-whatsapp"
+            >
+              WhatsApp: Kharis Cekpreminya
+            </a>
           </div>
         </div>
       </section>
@@ -136,32 +197,6 @@ export default function HomePage() {
               </footer>
             </blockquote>
           ))}
-        </div>
-      </section>
-
-      <section className="bg-brand py-16 text-white">
-        <div className="mx-auto max-w-4xl px-4 text-center">
-          <h2 className="text-3xl font-bold">Belum Tahu Perlu Asuransi Apa?</h2>
-          <p className="mt-3 text-white/80">
-            Isi form cek premi, atau langsung chat WhatsApp untuk konsultasi
-            gratis dengan {SITE.agentName}.
-          </p>
-          <div className="mt-6 flex flex-wrap justify-center gap-3">
-            <Link
-              href="/cek-premi"
-              className="rounded-full bg-white px-6 py-3 text-sm font-semibold text-brand transition-colors hover:bg-white/90"
-            >
-              Cek Estimasi Premi
-            </Link>
-            <a
-              href={SITE.waLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded-full border border-white px-6 py-3 text-sm font-semibold text-white transition-colors hover:border-whatsapp hover:bg-whatsapp"
-            >
-              Chat WhatsApp Sekarang
-            </a>
-          </div>
         </div>
       </section>
     </div>
