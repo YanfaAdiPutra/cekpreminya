@@ -1,11 +1,10 @@
-import Link from "next/link";
-import { NAV_LINKS, SITE } from "@/lib/site-config";
+import { SECTION_LINKS, SITE } from "@/lib/site-config";
 
 export const Footer = (): React.ReactElement => {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="mt-16 border-t border-slate-200 bg-slate-50">
+    <footer className="border-t border-slate-200 bg-slate-50">
       <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-slate-600">
         <div className="grid gap-8 sm:grid-cols-3">
           <div>
@@ -18,11 +17,11 @@ export const Footer = (): React.ReactElement => {
           <div>
             <p className="font-semibold text-slate-800">Navigasi</p>
             <ul className="mt-2 space-y-1">
-              {NAV_LINKS.map((link) => (
+              {SECTION_LINKS.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="hover:text-brand">
+                  <a href={link.href} className="hover:text-brand">
                     {link.label}
-                  </Link>
+                  </a>
                 </li>
               ))}
             </ul>

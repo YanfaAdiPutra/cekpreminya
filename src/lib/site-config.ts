@@ -28,12 +28,12 @@ export const withBasePath = (path: string): string => {
   return `${basePath}${path}`;
 };
 
-export const NAV_LINKS: NavLink[] = [
-  { href: "/", label: "Beranda" },
-  { href: "/artikel", label: "Artikel" },
-  { href: "/faq", label: "FAQ" },
-  { href: "/tentang", label: "Tentang" },
-  { href: "/kontak", label: "Kontak" },
+export const SECTION_LINKS: NavLink[] = [
+  { href: "#produk", label: "Produk" },
+  { href: "#cek-premi", label: "Cek Premi" },
+  { href: "#faq", label: "FAQ" },
+  { href: "#tentang", label: "Tentang" },
+  { href: "#kontak", label: "Kontak" },
 ];
 
 export interface ProductSummary {
