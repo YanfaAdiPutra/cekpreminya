@@ -28,11 +28,6 @@ export const CORE_FAQS: FaqItem[] = [
 
 export const SITE_FAQS: FaqItem[] = [
   {
-    question: "Apakah hasil cek premi di situs ini adalah harga final?",
-    answer:
-      "Tidak. Hasil di halaman Cek Premi adalah estimasi kasar berdasarkan tanggal lahir, jenis kelamin, dan nominal yang diinginkan. Premi final ditentukan lewat proses underwriting resmi MSIG Life melalui pengajuan SPAJ.",
-  },
-  {
     question: "Apakah situs ini situs resmi MSIG Life?",
     answer:
       "Bukan. Cek Preminya dikelola oleh Kharisnantyo, agen resmi MSIG Life yang beroperasi secara independen untuk membantu proses konsultasi dan pengajuan polis.",
@@ -40,7 +35,7 @@ export const SITE_FAQS: FaqItem[] = [
   {
     question: "Bagaimana cara mulai konsultasi?",
     answer:
-      "Paling cepat dengan langsung menuliskan pertanyaanmu lewat WhatsApp menggunakan tombol yang tersedia di setiap halaman, atau isi form di halaman Cek Premi terlebih dahulu.",
+      "Paling cepat dengan langsung menuliskan pertanyaanmu lewat WhatsApp menggunakan tombol yang tersedia di halaman ini.",
   },
 ];
 

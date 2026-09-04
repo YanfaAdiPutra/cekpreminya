@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { PRODUCTS, SITE, buildWaLink, withBasePath } from "@/lib/site-config";
 import { ALL_FAQS } from "@/lib/faqs";
-import { PremiumEstimatorForm } from "@/components/PremiumEstimatorForm";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Marquee } from "@/components/Marquee";
 
@@ -68,10 +67,10 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="#cek-premi"
+                href="#kontak"
                 className="group inline-flex items-center gap-3 rounded-full bg-brand py-2 pl-6 pr-2 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Cek Estimasi Premi
+                Langsung Tuliskan Pertanyaanmu
                 <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 transition-transform group-hover:translate-x-1">
                   &rarr;
                 </span>
@@ -189,22 +188,6 @@ export default function HomePage() {
             ))}
           </div>
         </div>
-      </section>
-
-      <section id="cek-premi" className="scroll-mt-20 px-4 py-16">
-        <ScrollReveal className="mb-10 text-center">
-          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
-            Cek Estimasi Premi
-          </h2>
-          <p className="mx-auto mt-3 max-w-2xl text-slate-600">
-            Isi data singkat berikut untuk melihat kisaran premi bulanan.
-            Setelah itu Anda bisa langsung konfirmasi penawaran resmi lewat
-            WhatsApp.
-          </p>
-        </ScrollReveal>
-        <ScrollReveal>
-          <PremiumEstimatorForm />
-        </ScrollReveal>
       </section>
 
       <section className="mx-auto max-w-6xl px-4 py-16">
