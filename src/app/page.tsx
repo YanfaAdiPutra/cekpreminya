@@ -3,6 +3,7 @@ import { PRODUCTS, SITE, buildWaLink, withBasePath } from "@/lib/site-config";
 import { ALL_FAQS } from "@/lib/faqs";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Marquee } from "@/components/Marquee";
+import { FaqAccordion } from "@/components/FaqAccordion";
 
 const TESTIMONIALS = [
   {
@@ -219,16 +220,9 @@ export default function HomePage() {
           </h2>
           <p className="mt-3 text-slate-600">{SITE.freedomLine}</p>
         </ScrollReveal>
-        <div className="mt-8 space-y-4">
-          {ALL_FAQS.map((faq) => (
-            <ScrollReveal key={faq.question}>
-              <div className="rounded-2xl border border-slate-200 p-6">
-                <h3 className="font-bold text-slate-900">+ {faq.question}</h3>
-                <p className="mt-2 text-sm text-slate-600">{faq.answer}</p>
-              </div>
-            </ScrollReveal>
-          ))}
-        </div>
+        <ScrollReveal className="mt-8">
+          <FaqAccordion items={ALL_FAQS} />
+        </ScrollReveal>
       </section>
 
       <section id="tentang" className="scroll-mt-20 bg-slate-50 py-16">
