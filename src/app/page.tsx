@@ -4,6 +4,7 @@ import { ALL_FAQS } from "@/lib/faqs";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Marquee } from "@/components/Marquee";
 import { FaqAccordion } from "@/components/FaqAccordion";
+import { PremiumCalculator } from "@/components/PremiumCalculator";
 
 const TESTIMONIALS = [
   {
@@ -68,10 +69,10 @@ export default function HomePage() {
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <a
-                href="#kontak"
+                href="#cek-premi"
                 className="group inline-flex items-center gap-3 rounded-full bg-brand py-2 pl-6 pr-2 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
               >
-                Langsung Tuliskan Pertanyaanmu
+                Cek Estimasi Premi
                 <span className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 transition-transform group-hover:translate-x-1">
                   &rarr;
                 </span>
@@ -169,7 +170,22 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-slate-50 py-16">
+      <section id="cek-premi" className="scroll-mt-20 bg-slate-50 px-4 py-16">
+        <ScrollReveal className="mb-10 text-center">
+          <h2 className="text-3xl font-bold text-slate-900 sm:text-4xl">
+            Cek Estimasi Premi
+          </h2>
+          <p className="mx-auto mt-3 max-w-2xl text-slate-600">
+            Pilih produk, isi umur dan jenis kelamin, langsung lihat kisaran
+            harganya.
+          </p>
+        </ScrollReveal>
+        <ScrollReveal>
+          <PremiumCalculator />
+        </ScrollReveal>
+      </section>
+
+      <section className="py-16">
         <div className="mx-auto max-w-6xl px-4">
           <ScrollReveal className="mb-10 text-center">
             <h2 className="text-3xl font-bold text-slate-900">

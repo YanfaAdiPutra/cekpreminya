@@ -85,10 +85,10 @@ export const Header = (): React.ReactElement => {
 
         <div className="hidden items-center gap-3 lg:flex">
           <a
-            href="#kontak"
+            href="#cek-premi"
             className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
           >
-            Kontak
+            Cek Premi
           </a>
           <a
             href={SITE.waLink}
@@ -131,11 +131,11 @@ export const Header = (): React.ReactElement => {
 
           <div className="mt-4 flex flex-col gap-2">
             <a
-              href="#kontak"
+              href="#cek-premi"
               onClick={closeMobileMenu}
               className="rounded-full bg-brand px-4 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
             >
-              Kontak
+              Cek Premi
             </a>
             <a
               href={SITE.waLink}

@@ -1,0 +1,3243 @@
+{
+  "asuransi-kesehatan": {
+    "productName": "Smile Health Prime",
+    "inputs": {
+      "ageMin": 0,
+      "ageMax": 75,
+      "genders": [
+        "pria",
+        "wanita"
+      ]
+    },
+    "tiers": [
+      {
+        "id": "silver-max",
+        "badge": "FULL COVER — MAXIMUM BENEFIT",
+        "name": "Silver Max",
+        "description": "Perlindungan paling lengkap, tanpa deductible untuk rawat inap.",
+        "benefits": [
+          "Coverage Asia (kecuali SG, HK, JPN)",
+          "Cashless",
+          "1 Kamar 1 Ranjang (Kamar VIP)",
+          "Limit Tahunan 6 Miliar + Booster 10 Miliar",
+          "Full Cover Non Deductible"
+        ],
+        "annualDiscountMonths": 2,
+        "rates": [
+          {
+            "minAge": 0,
+            "maxAge": 0,
+            "gender": "pria",
+            "annual": 15134000
+          },
+          {
+            "minAge": 0,
+            "maxAge": 0,
+            "gender": "wanita",
+            "annual": 15349000
+          },
+          {
+            "minAge": 1,
+            "maxAge": 1,
+            "gender": "pria",
+            "annual": 15134000
+          },
+          {
+            "minAge": 1,
+            "maxAge": 1,
+            "gender": "wanita",
+            "annual": 15349000
+          },
+          {
+            "minAge": 2,
+            "maxAge": 2,
+            "gender": "pria",
+            "annual": 15134000
+          },
+          {
+            "minAge": 2,
+            "maxAge": 2,
+            "gender": "wanita",
+            "annual": 15349000
+          },
+          {
+            "minAge": 3,
+            "maxAge": 3,
+            "gender": "pria",
+            "annual": 15134000
+          },
+          {
+            "minAge": 3,
+            "maxAge": 3,
+            "gender": "wanita",
+            "annual": 15349000
+          },
+          {
+            "minAge": 4,
+            "maxAge": 4,
+            "gender": "pria",
+            "annual": 15134000
+          },
+          {
+            "minAge": 4,
+            "maxAge": 4,
+            "gender": "wanita",
+            "annual": 15349000
+          },
+          {
+            "minAge": 5,
+            "maxAge": 5,
+            "gender": "pria",
+            "annual": 8991000
+          },
+          {
+            "minAge": 5,
+            "maxAge": 5,
+            "gender": "wanita",
+            "annual": 9125000
+          },
+          {
+            "minAge": 6,
+            "maxAge": 6,
+            "gender": "pria",
+            "annual": 8991000
+          },
+          {
+            "minAge": 6,
+            "maxAge": 6,
+            "gender": "wanita",
+            "annual": 9125000
+          },
+          {
+            "minAge": 7,
+            "maxAge": 7,
+            "gender": "pria",
+            "annual": 8991000
+          },
+          {
+            "minAge": 7,
+            "maxAge": 7,
+            "gender": "wanita",
+            "annual": 9125000
+          },
+          {
+            "minAge": 8,
+            "maxAge": 8,
+            "gender": "pria",
+            "annual": 8991000
+          },
+          {
+            "minAge": 8,
+            "maxAge": 8,
+            "gender": "wanita",
+            "annual": 9125000
+          },
+          {
+            "minAge": 9,
+            "maxAge": 9,
+            "gender": "pria",
+            "annual": 8991000
+          },
+          {
+            "minAge": 9,
+            "maxAge": 9,
+            "gender": "wanita",
+            "annual": 9126000
+          },
+          {
+            "minAge": 10,
+            "maxAge": 10,
+            "gender": "pria",
+            "annual": 8991000
+          },
+          {
+            "minAge": 10,
+            "maxAge": 10,
+            "gender": "wanita",
+            "annual": 9126000
+          },
+          {
+            "minAge": 11,
+            "maxAge": 11,
+            "gender": "pria",
+            "annual": 8992000
+          },
+          {
+            "minAge": 11,
+            "maxAge": 11,
+            "gender": "wanita",
+            "annual": 9126000
+          },
+          {
+            "minAge": 12,
+            "maxAge": 12,
+            "gender": "pria",
+            "annual": 8992000
+          },
+          {
+            "minAge": 12,
+            "maxAge": 12,
+            "gender": "wanita",
+            "annual": 9126000
+          },
+          {
+            "minAge": 13,
+            "maxAge": 13,
+            "gender": "pria",
+            "annual": 8992000
+          },
+          {
+            "minAge": 13,
+            "maxAge": 13,
+            "gender": "wanita",
+            "annual": 9127000
+          },
+          {
+            "minAge": 14,
+            "maxAge": 14,
+            "gender": "pria",
+            "annual": 8993000
+          },
+          {
+            "minAge": 14,
+            "maxAge": 14,
+            "gender": "wanita",
+            "annual": 9127000
+          },
+          {
+            "minAge": 15,
+            "maxAge": 15,
+            "gender": "pria",
+            "annual": 8993000
+          },
+          {
+            "minAge": 15,
+            "maxAge": 15,
+            "gender": "wanita",
+            "annual": 9127000
+          },
+          {
+            "minAge": 16,
+            "maxAge": 16,
+            "gender": "pria",
+            "annual": 8993000
+          },
+          {
+            "minAge": 16,
+            "maxAge": 16,
+            "gender": "wanita",
+            "annual": 9127000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 17,
+            "gender": "pria",
+            "annual": 8993000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 17,
+            "gender": "wanita",
+            "annual": 9128000
+          },
+          {
+            "minAge": 18,
+            "maxAge": 18,
+            "gender": "pria",
+            "annual": 8994000
+          },
+          {
+            "minAge": 18,
+            "maxAge": 18,
+            "gender": "wanita",
+            "annual": 9128000
+          },
+          {
+            "minAge": 19,
+            "maxAge": 19,
+            "gender": "pria",
+            "annual": 10075000
+          },
+          {
+            "minAge": 19,
+            "maxAge": 19,
+            "gender": "wanita",
+            "annual": 12296000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 20,
+            "gender": "pria",
+            "annual": 10086000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 20,
+            "gender": "wanita",
+            "annual": 12310000
+          },
+          {
+            "minAge": 21,
+            "maxAge": 21,
+            "gender": "pria",
+            "annual": 10098000
+          },
+          {
+            "minAge": 21,
+            "maxAge": 21,
+            "gender": "wanita",
+            "annual": 12324000
+          },
+          {
+            "minAge": 22,
+            "maxAge": 22,
+            "gender": "pria",
+            "annual": 10109000
+          },
+          {
+            "minAge": 22,
+            "maxAge": 22,
+            "gender": "wanita",
+            "annual": 12338000
+          },
+          {
+            "minAge": 23,
+            "maxAge": 23,
+            "gender": "pria",
+            "annual": 10120000
+          },
+          {
+            "minAge": 23,
+            "maxAge": 23,
+            "gender": "wanita",
+            "annual": 12351000
+          },
+          {
+            "minAge": 24,
+            "maxAge": 24,
+            "gender": "pria",
+            "annual": 10132000
+          },
+          {
+            "minAge": 24,
+            "maxAge": 24,
+            "gender": "wanita",
+            "annual": 12365000
+          },
+          {
+            "minAge": 25,
+            "maxAge": 25,
+            "gender": "pria",
+            "annual": 10143000
+          },
+          {
+            "minAge": 25,
+            "maxAge": 25,
+            "gender": "wanita",
+            "annual": 12379000
+          },
+          {
+            "minAge": 26,
+            "maxAge": 26,
+            "gender": "pria",
+            "annual": 10197000
+          },
+          {
+            "minAge": 26,
+            "maxAge": 26,
+            "gender": "wanita",
+            "annual": 12445000
+          },
+          {
+            "minAge": 27,
+            "maxAge": 27,
+            "gender": "pria",
+            "annual": 10240000
+          },
+          {
+            "minAge": 27,
+            "maxAge": 27,
+            "gender": "wanita",
+            "annual": 12497000
+          },
+          {
+            "minAge": 28,
+            "maxAge": 28,
+            "gender": "pria",
+            "annual": 10282000
+          },
+          {
+            "minAge": 28,
+            "maxAge": 28,
+            "gender": "wanita",
+            "annual": 12549000
+          },
+          {
+            "minAge": 29,
+            "maxAge": 29,
+            "gender": "pria",
+            "annual": 10325000
+          },
+          {
+            "minAge": 29,
+            "maxAge": 29,
+            "gender": "wanita",
+            "annual": 12601000
+          },
+          {
+            "minAge": 30,
+            "maxAge": 30,
+            "gender": "pria",
+            "annual": 10367000
+          },
+          {
+            "minAge": 30,
+            "maxAge": 30,
+            "gender": "wanita",
+            "annual": 12652000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 31,
+            "gender": "pria",
+            "annual": 10745000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 31,
+            "gender": "wanita",
+            "annual": 14163000
+          },
+          {
+            "minAge": 32,
+            "maxAge": 32,
+            "gender": "pria",
+            "annual": 10804000
+          },
+          {
+            "minAge": 32,
+            "maxAge": 32,
+            "gender": "wanita",
+            "annual": 14241000
+          },
+          {
+            "minAge": 33,
+            "maxAge": 33,
+            "gender": "pria",
+            "annual": 10863000
+          },
+          {
+            "minAge": 33,
+            "maxAge": 33,
+            "gender": "wanita",
+            "annual": 14318000
+          },
+          {
+            "minAge": 34,
+            "maxAge": 34,
+            "gender": "pria",
+            "annual": 10922000
+          },
+          {
+            "minAge": 34,
+            "maxAge": 34,
+            "gender": "wanita",
+            "annual": 14396000
+          },
+          {
+            "minAge": 35,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 10979000
+          },
+          {
+            "minAge": 35,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 14472000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 36,
+            "gender": "pria",
+            "annual": 12114000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 36,
+            "gender": "wanita",
+            "annual": 15681000
+          },
+          {
+            "minAge": 37,
+            "maxAge": 37,
+            "gender": "pria",
+            "annual": 12213000
+          },
+          {
+            "minAge": 37,
+            "maxAge": 37,
+            "gender": "wanita",
+            "annual": 15810000
+          },
+          {
+            "minAge": 38,
+            "maxAge": 38,
+            "gender": "pria",
+            "annual": 12314000
+          },
+          {
+            "minAge": 38,
+            "maxAge": 38,
+            "gender": "wanita",
+            "annual": 15941000
+          },
+          {
+            "minAge": 39,
+            "maxAge": 39,
+            "gender": "pria",
+            "annual": 12416000
+          },
+          {
+            "minAge": 39,
+            "maxAge": 39,
+            "gender": "wanita",
+            "annual": 16072000
+          },
+          {
+            "minAge": 40,
+            "maxAge": 40,
+            "gender": "pria",
+            "annual": 12513000
+          },
+          {
+            "minAge": 40,
+            "maxAge": 40,
+            "gender": "wanita",
+            "annual": 16196000
+          },
+          {
+            "minAge": 41,
+            "maxAge": 41,
+            "gender": "pria",
+            "annual": 14796000
+          },
+          {
+            "minAge": 41,
+            "maxAge": 41,
+            "gender": "wanita",
+            "annual": 18426000
+          },
+          {
+            "minAge": 42,
+            "maxAge": 42,
+            "gender": "pria",
+            "annual": 15702000
+          },
+          {
+            "minAge": 42,
+            "maxAge": 42,
+            "gender": "wanita",
+            "annual": 19555000
+          },
+          {
+            "minAge": 43,
+            "maxAge": 43,
+            "gender": "pria",
+            "annual": 15734000
+          },
+          {
+            "minAge": 43,
+            "maxAge": 43,
+            "gender": "wanita",
+            "annual": 19595000
+          },
+          {
+            "minAge": 44,
+            "maxAge": 44,
+            "gender": "pria",
+            "annual": 15766000
+          },
+          {
+            "minAge": 44,
+            "maxAge": 44,
+            "gender": "wanita",
+            "annual": 19635000
+          },
+          {
+            "minAge": 45,
+            "maxAge": 45,
+            "gender": "pria",
+            "annual": 16440000
+          },
+          {
+            "minAge": 45,
+            "maxAge": 45,
+            "gender": "wanita",
+            "annual": 20474000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 46,
+            "gender": "pria",
+            "annual": 19665000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 46,
+            "gender": "wanita",
+            "annual": 22821000
+          },
+          {
+            "minAge": 47,
+            "maxAge": 47,
+            "gender": "pria",
+            "annual": 20821000
+          },
+          {
+            "minAge": 47,
+            "maxAge": 47,
+            "gender": "wanita",
+            "annual": 22476000
+          },
+          {
+            "minAge": 48,
+            "maxAge": 48,
+            "gender": "pria",
+            "annual": 21937000
+          },
+          {
+            "minAge": 48,
+            "maxAge": 48,
+            "gender": "wanita",
+            "annual": 23680000
+          },
+          {
+            "minAge": 49,
+            "maxAge": 49,
+            "gender": "pria",
+            "annual": 22536000
+          },
+          {
+            "minAge": 49,
+            "maxAge": 49,
+            "gender": "wanita",
+            "annual": 24326000
+          },
+          {
+            "minAge": 50,
+            "maxAge": 50,
+            "gender": "pria",
+            "annual": 23135000
+          },
+          {
+            "minAge": 50,
+            "maxAge": 50,
+            "gender": "wanita",
+            "annual": 24973000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 51,
+            "gender": "pria",
+            "annual": 31125000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 51,
+            "gender": "wanita",
+            "annual": 31099000
+          },
+          {
+            "minAge": 52,
+            "maxAge": 52,
+            "gender": "pria",
+            "annual": 31424000
+          },
+          {
+            "minAge": 52,
+            "maxAge": 52,
+            "gender": "wanita",
+            "annual": 31398000
+          },
+          {
+            "minAge": 53,
+            "maxAge": 53,
+            "gender": "pria",
+            "annual": 31726000
+          },
+          {
+            "minAge": 53,
+            "maxAge": 53,
+            "gender": "wanita",
+            "annual": 31700000
+          },
+          {
+            "minAge": 54,
+            "maxAge": 54,
+            "gender": "pria",
+            "annual": 32031000
+          },
+          {
+            "minAge": 54,
+            "maxAge": 54,
+            "gender": "wanita",
+            "annual": 32004000
+          },
+          {
+            "minAge": 55,
+            "maxAge": 55,
+            "gender": "pria",
+            "annual": 32321000
+          },
+          {
+            "minAge": 55,
+            "maxAge": 55,
+            "gender": "wanita",
+            "annual": 32294000
+          },
+          {
+            "minAge": 56,
+            "maxAge": 56,
+            "gender": "pria",
+            "annual": 37933000
+          },
+          {
+            "minAge": 56,
+            "maxAge": 56,
+            "gender": "wanita",
+            "annual": 35486000
+          },
+          {
+            "minAge": 57,
+            "maxAge": 57,
+            "gender": "pria",
+            "annual": 39182000
+          },
+          {
+            "minAge": 57,
+            "maxAge": 57,
+            "gender": "wanita",
+            "annual": 36655000
+          },
+          {
+            "minAge": 58,
+            "maxAge": 58,
+            "gender": "pria",
+            "annual": 39253000
+          },
+          {
+            "minAge": 58,
+            "maxAge": 58,
+            "gender": "wanita",
+            "annual": 36722000
+          },
+          {
+            "minAge": 59,
+            "maxAge": 59,
+            "gender": "pria",
+            "annual": 39325000
+          },
+          {
+            "minAge": 59,
+            "maxAge": 59,
+            "gender": "wanita",
+            "annual": 36788000
+          },
+          {
+            "minAge": 60,
+            "maxAge": 60,
+            "gender": "pria",
+            "annual": 40496000
+          },
+          {
+            "minAge": 60,
+            "maxAge": 60,
+            "gender": "wanita",
+            "annual": 37884000
+          },
+          {
+            "minAge": 61,
+            "maxAge": 61,
+            "gender": "pria",
+            "annual": 51063000
+          },
+          {
+            "minAge": 61,
+            "maxAge": 61,
+            "gender": "wanita",
+            "annual": 44586000
+          },
+          {
+            "minAge": 62,
+            "maxAge": 62,
+            "gender": "pria",
+            "annual": 51765000
+          },
+          {
+            "minAge": 62,
+            "maxAge": 62,
+            "gender": "wanita",
+            "annual": 45198000
+          },
+          {
+            "minAge": 63,
+            "maxAge": 63,
+            "gender": "pria",
+            "annual": 52475000
+          },
+          {
+            "minAge": 63,
+            "maxAge": 63,
+            "gender": "wanita",
+            "annual": 45818000
+          },
+          {
+            "minAge": 64,
+            "maxAge": 64,
+            "gender": "pria",
+            "annual": 53196000
+          },
+          {
+            "minAge": 64,
+            "maxAge": 64,
+            "gender": "wanita",
+            "annual": 46448000
+          },
+          {
+            "minAge": 65,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 53868000
+          },
+          {
+            "minAge": 65,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 47034000
+          },
+          {
+            "minAge": 66,
+            "maxAge": 66,
+            "gender": "pria",
+            "annual": 66680000
+          },
+          {
+            "minAge": 66,
+            "maxAge": 66,
+            "gender": "wanita",
+            "annual": 55168000
+          },
+          {
+            "minAge": 67,
+            "maxAge": 67,
+            "gender": "pria",
+            "annual": 66689000
+          },
+          {
+            "minAge": 67,
+            "maxAge": 67,
+            "gender": "wanita",
+            "annual": 55178000
+          },
+          {
+            "minAge": 68,
+            "maxAge": 68,
+            "gender": "pria",
+            "annual": 67259000
+          },
+          {
+            "minAge": 68,
+            "maxAge": 68,
+            "gender": "wanita",
+            "annual": 55647000
+          },
+          {
+            "minAge": 69,
+            "maxAge": 69,
+            "gender": "pria",
+            "annual": 68743000
+          },
+          {
+            "minAge": 69,
+            "maxAge": 69,
+            "gender": "wanita",
+            "annual": 56875000
+          },
+          {
+            "minAge": 70,
+            "maxAge": 70,
+            "gender": "pria",
+            "annual": 70227000
+          },
+          {
+            "minAge": 70,
+            "maxAge": 70,
+            "gender": "wanita",
+            "annual": 58103000
+          },
+          {
+            "minAge": 71,
+            "maxAge": 71,
+            "gender": "pria",
+            "annual": 83074000
+          },
+          {
+            "minAge": 71,
+            "maxAge": 71,
+            "gender": "wanita",
+            "annual": 68744000
+          },
+          {
+            "minAge": 72,
+            "maxAge": 72,
+            "gender": "pria",
+            "annual": 83085000
+          },
+          {
+            "minAge": 72,
+            "maxAge": 72,
+            "gender": "wanita",
+            "annual": 68753000
+          },
+          {
+            "minAge": 73,
+            "maxAge": 73,
+            "gender": "pria",
+            "annual": 83130000
+          },
+          {
+            "minAge": 73,
+            "maxAge": 73,
+            "gender": "wanita",
+            "annual": 68790000
+          },
+          {
+            "minAge": 74,
+            "maxAge": 74,
+            "gender": "pria",
+            "annual": 83814000
+          },
+          {
+            "minAge": 74,
+            "maxAge": 74,
+            "gender": "wanita",
+            "annual": 69357000
+          },
+          {
+            "minAge": 75,
+            "maxAge": 75,
+            "gender": "pria",
+            "annual": 87293000
+          },
+          {
+            "minAge": 75,
+            "maxAge": 75,
+            "gender": "wanita",
+            "annual": 72235000
+          }
+        ]
+      },
+      {
+        "id": "bronze-pro",
+        "badge": "LEBIH TERJANGKAU",
+        "name": "Bronze Pro",
+        "description": "Tetap nyaman dengan premi lebih hemat. Deductible hanya Rp 4 juta/rawat inap.",
+        "benefits": [
+          "Coverage Indonesia",
+          "Cashless",
+          "1 Kamar 1 Ranjang (Kamar VIP)",
+          "Limit Tahunan 3,5 Miliar + Booster 7 Miliar",
+          "Deductible Rp 4 juta/rawat inap"
+        ],
+        "annualDiscountMonths": 2,
+        "rates": [
+          {
+            "minAge": 0,
+            "maxAge": 0,
+            "gender": "pria",
+            "annual": 9549000
+          },
+          {
+            "minAge": 0,
+            "maxAge": 0,
+            "gender": "wanita",
+            "annual": 9683000
+          },
+          {
+            "minAge": 1,
+            "maxAge": 1,
+            "gender": "pria",
+            "annual": 9549000
+          },
+          {
+            "minAge": 1,
+            "maxAge": 1,
+            "gender": "wanita",
+            "annual": 9683000
+          },
+          {
+            "minAge": 2,
+            "maxAge": 2,
+            "gender": "pria",
+            "annual": 9549000
+          },
+          {
+            "minAge": 2,
+            "maxAge": 2,
+            "gender": "wanita",
+            "annual": 9683000
+          },
+          {
+            "minAge": 3,
+            "maxAge": 3,
+            "gender": "pria",
+            "annual": 9549000
+          },
+          {
+            "minAge": 3,
+            "maxAge": 3,
+            "gender": "wanita",
+            "annual": 9683000
+          },
+          {
+            "minAge": 4,
+            "maxAge": 4,
+            "gender": "pria",
+            "annual": 9549000
+          },
+          {
+            "minAge": 4,
+            "maxAge": 4,
+            "gender": "wanita",
+            "annual": 9683000
+          },
+          {
+            "minAge": 5,
+            "maxAge": 5,
+            "gender": "pria",
+            "annual": 5671000
+          },
+          {
+            "minAge": 5,
+            "maxAge": 5,
+            "gender": "wanita",
+            "annual": 5756000
+          },
+          {
+            "minAge": 6,
+            "maxAge": 6,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 6,
+            "maxAge": 6,
+            "gender": "wanita",
+            "annual": 5756000
+          },
+          {
+            "minAge": 7,
+            "maxAge": 7,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 7,
+            "maxAge": 7,
+            "gender": "wanita",
+            "annual": 5756000
+          },
+          {
+            "minAge": 8,
+            "maxAge": 8,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 8,
+            "maxAge": 8,
+            "gender": "wanita",
+            "annual": 5756000
+          },
+          {
+            "minAge": 9,
+            "maxAge": 9,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 9,
+            "maxAge": 9,
+            "gender": "wanita",
+            "annual": 5756000
+          },
+          {
+            "minAge": 10,
+            "maxAge": 10,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 10,
+            "maxAge": 10,
+            "gender": "wanita",
+            "annual": 5756000
+          },
+          {
+            "minAge": 11,
+            "maxAge": 11,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 11,
+            "maxAge": 11,
+            "gender": "wanita",
+            "annual": 5757000
+          },
+          {
+            "minAge": 12,
+            "maxAge": 12,
+            "gender": "pria",
+            "annual": 5672000
+          },
+          {
+            "minAge": 12,
+            "maxAge": 12,
+            "gender": "wanita",
+            "annual": 5757000
+          },
+          {
+            "minAge": 13,
+            "maxAge": 13,
+            "gender": "pria",
+            "annual": 5673000
+          },
+          {
+            "minAge": 13,
+            "maxAge": 13,
+            "gender": "wanita",
+            "annual": 5757000
+          },
+          {
+            "minAge": 14,
+            "maxAge": 14,
+            "gender": "pria",
+            "annual": 5673000
+          },
+          {
+            "minAge": 14,
+            "maxAge": 14,
+            "gender": "wanita",
+            "annual": 5757000
+          },
+          {
+            "minAge": 15,
+            "maxAge": 15,
+            "gender": "pria",
+            "annual": 5673000
+          },
+          {
+            "minAge": 15,
+            "maxAge": 15,
+            "gender": "wanita",
+            "annual": 5757000
+          },
+          {
+            "minAge": 16,
+            "maxAge": 16,
+            "gender": "pria",
+            "annual": 5673000
+          },
+          {
+            "minAge": 16,
+            "maxAge": 16,
+            "gender": "wanita",
+            "annual": 5757000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 17,
+            "gender": "pria",
+            "annual": 5673000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 17,
+            "gender": "wanita",
+            "annual": 5758000
+          },
+          {
+            "minAge": 18,
+            "maxAge": 18,
+            "gender": "pria",
+            "annual": 5673000
+          },
+          {
+            "minAge": 18,
+            "maxAge": 18,
+            "gender": "wanita",
+            "annual": 5758000
+          },
+          {
+            "minAge": 19,
+            "maxAge": 19,
+            "gender": "pria",
+            "annual": 7166000
+          },
+          {
+            "minAge": 19,
+            "maxAge": 19,
+            "gender": "wanita",
+            "annual": 8742000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 20,
+            "gender": "pria",
+            "annual": 7174000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 20,
+            "gender": "wanita",
+            "annual": 8752000
+          },
+          {
+            "minAge": 21,
+            "maxAge": 21,
+            "gender": "pria",
+            "annual": 7182000
+          },
+          {
+            "minAge": 21,
+            "maxAge": 21,
+            "gender": "wanita",
+            "annual": 8762000
+          },
+          {
+            "minAge": 22,
+            "maxAge": 22,
+            "gender": "pria",
+            "annual": 7190000
+          },
+          {
+            "minAge": 22,
+            "maxAge": 22,
+            "gender": "wanita",
+            "annual": 8772000
+          },
+          {
+            "minAge": 23,
+            "maxAge": 23,
+            "gender": "pria",
+            "annual": 7198000
+          },
+          {
+            "minAge": 23,
+            "maxAge": 23,
+            "gender": "wanita",
+            "annual": 8782000
+          },
+          {
+            "minAge": 24,
+            "maxAge": 24,
+            "gender": "pria",
+            "annual": 7206000
+          },
+          {
+            "minAge": 24,
+            "maxAge": 24,
+            "gender": "wanita",
+            "annual": 8792000
+          },
+          {
+            "minAge": 25,
+            "maxAge": 25,
+            "gender": "pria",
+            "annual": 7214000
+          },
+          {
+            "minAge": 25,
+            "maxAge": 25,
+            "gender": "wanita",
+            "annual": 8801000
+          },
+          {
+            "minAge": 26,
+            "maxAge": 26,
+            "gender": "pria",
+            "annual": 7251000
+          },
+          {
+            "minAge": 26,
+            "maxAge": 26,
+            "gender": "wanita",
+            "annual": 8850000
+          },
+          {
+            "minAge": 27,
+            "maxAge": 27,
+            "gender": "pria",
+            "annual": 7281000
+          },
+          {
+            "minAge": 27,
+            "maxAge": 27,
+            "gender": "wanita",
+            "annual": 8887000
+          },
+          {
+            "minAge": 28,
+            "maxAge": 28,
+            "gender": "pria",
+            "annual": 7311000
+          },
+          {
+            "minAge": 28,
+            "maxAge": 28,
+            "gender": "wanita",
+            "annual": 8923000
+          },
+          {
+            "minAge": 29,
+            "maxAge": 29,
+            "gender": "pria",
+            "annual": 7342000
+          },
+          {
+            "minAge": 29,
+            "maxAge": 29,
+            "gender": "wanita",
+            "annual": 8961000
+          },
+          {
+            "minAge": 30,
+            "maxAge": 30,
+            "gender": "pria",
+            "annual": 7372000
+          },
+          {
+            "minAge": 30,
+            "maxAge": 30,
+            "gender": "wanita",
+            "annual": 8997000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 31,
+            "gender": "pria",
+            "annual": 7642000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 31,
+            "gender": "wanita",
+            "annual": 10073000
+          },
+          {
+            "minAge": 32,
+            "maxAge": 32,
+            "gender": "pria",
+            "annual": 7684000
+          },
+          {
+            "minAge": 32,
+            "maxAge": 32,
+            "gender": "wanita",
+            "annual": 10128000
+          },
+          {
+            "minAge": 33,
+            "maxAge": 33,
+            "gender": "pria",
+            "annual": 7725000
+          },
+          {
+            "minAge": 33,
+            "maxAge": 33,
+            "gender": "wanita",
+            "annual": 10183000
+          },
+          {
+            "minAge": 34,
+            "maxAge": 34,
+            "gender": "pria",
+            "annual": 7768000
+          },
+          {
+            "minAge": 34,
+            "maxAge": 34,
+            "gender": "wanita",
+            "annual": 10239000
+          },
+          {
+            "minAge": 35,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 7809000
+          },
+          {
+            "minAge": 35,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 10293000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 36,
+            "gender": "pria",
+            "annual": 8613000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 36,
+            "gender": "wanita",
+            "annual": 11151000
+          },
+          {
+            "minAge": 37,
+            "maxAge": 37,
+            "gender": "pria",
+            "annual": 8684000
+          },
+          {
+            "minAge": 37,
+            "maxAge": 37,
+            "gender": "wanita",
+            "annual": 11213000
+          },
+          {
+            "minAge": 38,
+            "maxAge": 38,
+            "gender": "pria",
+            "annual": 8756000
+          },
+          {
+            "minAge": 38,
+            "maxAge": 38,
+            "gender": "wanita",
+            "annual": 11336000
+          },
+          {
+            "minAge": 39,
+            "maxAge": 39,
+            "gender": "pria",
+            "annual": 8828000
+          },
+          {
+            "minAge": 39,
+            "maxAge": 39,
+            "gender": "wanita",
+            "annual": 11429000
+          },
+          {
+            "minAge": 40,
+            "maxAge": 40,
+            "gender": "pria",
+            "annual": 8897000
+          },
+          {
+            "minAge": 40,
+            "maxAge": 40,
+            "gender": "wanita",
+            "annual": 11519000
+          },
+          {
+            "minAge": 41,
+            "maxAge": 41,
+            "gender": "pria",
+            "annual": 10519000
+          },
+          {
+            "minAge": 41,
+            "maxAge": 41,
+            "gender": "wanita",
+            "annual": 13103000
+          },
+          {
+            "minAge": 42,
+            "maxAge": 42,
+            "gender": "pria",
+            "annual": 11163000
+          },
+          {
+            "minAge": 42,
+            "maxAge": 42,
+            "gender": "wanita",
+            "annual": 13906000
+          },
+          {
+            "minAge": 43,
+            "maxAge": 43,
+            "gender": "pria",
+            "annual": 11186000
+          },
+          {
+            "minAge": 43,
+            "maxAge": 43,
+            "gender": "wanita",
+            "annual": 13934000
+          },
+          {
+            "minAge": 44,
+            "maxAge": 44,
+            "gender": "pria",
+            "annual": 11209000
+          },
+          {
+            "minAge": 44,
+            "maxAge": 44,
+            "gender": "wanita",
+            "annual": 13962000
+          },
+          {
+            "minAge": 45,
+            "maxAge": 45,
+            "gender": "pria",
+            "annual": 11688000
+          },
+          {
+            "minAge": 45,
+            "maxAge": 45,
+            "gender": "wanita",
+            "annual": 14559000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 46,
+            "gender": "pria",
+            "annual": 14330000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 46,
+            "gender": "wanita",
+            "annual": 15467000
+          },
+          {
+            "minAge": 47,
+            "maxAge": 47,
+            "gender": "pria",
+            "annual": 15173000
+          },
+          {
+            "minAge": 47,
+            "maxAge": 47,
+            "gender": "wanita",
+            "annual": 16377000
+          },
+          {
+            "minAge": 48,
+            "maxAge": 48,
+            "gender": "pria",
+            "annual": 15986000
+          },
+          {
+            "minAge": 48,
+            "maxAge": 48,
+            "gender": "wanita",
+            "annual": 17255000
+          },
+          {
+            "minAge": 49,
+            "maxAge": 49,
+            "gender": "pria",
+            "annual": 16422000
+          },
+          {
+            "minAge": 49,
+            "maxAge": 49,
+            "gender": "wanita",
+            "annual": 17726000
+          },
+          {
+            "minAge": 50,
+            "maxAge": 50,
+            "gender": "pria",
+            "annual": 16859000
+          },
+          {
+            "minAge": 50,
+            "maxAge": 50,
+            "gender": "wanita",
+            "annual": 18197000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 51,
+            "gender": "pria",
+            "annual": 22677000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 51,
+            "gender": "wanita",
+            "annual": 22659000
+          },
+          {
+            "minAge": 52,
+            "maxAge": 52,
+            "gender": "pria",
+            "annual": 22895000
+          },
+          {
+            "minAge": 52,
+            "maxAge": 52,
+            "gender": "wanita",
+            "annual": 22876000
+          },
+          {
+            "minAge": 53,
+            "maxAge": 53,
+            "gender": "pria",
+            "annual": 23115000
+          },
+          {
+            "minAge": 53,
+            "maxAge": 53,
+            "gender": "wanita",
+            "annual": 23096000
+          },
+          {
+            "minAge": 54,
+            "maxAge": 54,
+            "gender": "pria",
+            "annual": 23337000
+          },
+          {
+            "minAge": 54,
+            "maxAge": 54,
+            "gender": "wanita",
+            "annual": 23318000
+          },
+          {
+            "minAge": 55,
+            "maxAge": 55,
+            "gender": "pria",
+            "annual": 23548000
+          },
+          {
+            "minAge": 55,
+            "maxAge": 55,
+            "gender": "wanita",
+            "annual": 23529000
+          },
+          {
+            "minAge": 56,
+            "maxAge": 56,
+            "gender": "pria",
+            "annual": 26622000
+          },
+          {
+            "minAge": 56,
+            "maxAge": 56,
+            "gender": "wanita",
+            "annual": 24902000
+          },
+          {
+            "minAge": 57,
+            "maxAge": 57,
+            "gender": "pria",
+            "annual": 27498000
+          },
+          {
+            "minAge": 57,
+            "maxAge": 57,
+            "gender": "wanita",
+            "annual": 25722000
+          },
+          {
+            "minAge": 58,
+            "maxAge": 58,
+            "gender": "pria",
+            "annual": 27548000
+          },
+          {
+            "minAge": 58,
+            "maxAge": 58,
+            "gender": "wanita",
+            "annual": 25768000
+          },
+          {
+            "minAge": 59,
+            "maxAge": 59,
+            "gender": "pria",
+            "annual": 27598000
+          },
+          {
+            "minAge": 59,
+            "maxAge": 59,
+            "gender": "wanita",
+            "annual": 25815000
+          },
+          {
+            "minAge": 60,
+            "maxAge": 60,
+            "gender": "pria",
+            "annual": 28420000
+          },
+          {
+            "minAge": 60,
+            "maxAge": 60,
+            "gender": "wanita",
+            "annual": 26584000
+          },
+          {
+            "minAge": 61,
+            "maxAge": 61,
+            "gender": "pria",
+            "annual": 37206000
+          },
+          {
+            "minAge": 61,
+            "maxAge": 61,
+            "gender": "wanita",
+            "annual": 32486000
+          },
+          {
+            "minAge": 62,
+            "maxAge": 62,
+            "gender": "pria",
+            "annual": 37717000
+          },
+          {
+            "minAge": 62,
+            "maxAge": 62,
+            "gender": "wanita",
+            "annual": 32932000
+          },
+          {
+            "minAge": 63,
+            "maxAge": 63,
+            "gender": "pria",
+            "annual": 38235000
+          },
+          {
+            "minAge": 63,
+            "maxAge": 63,
+            "gender": "wanita",
+            "annual": 33384000
+          },
+          {
+            "minAge": 64,
+            "maxAge": 64,
+            "gender": "pria",
+            "annual": 38760000
+          },
+          {
+            "minAge": 64,
+            "maxAge": 64,
+            "gender": "wanita",
+            "annual": 33842000
+          },
+          {
+            "minAge": 65,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 39250000
+          },
+          {
+            "minAge": 65,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 34270000
+          },
+          {
+            "minAge": 66,
+            "maxAge": 66,
+            "gender": "pria",
+            "annual": 48583000
+          },
+          {
+            "minAge": 66,
+            "maxAge": 66,
+            "gender": "wanita",
+            "annual": 40197000
+          },
+          {
+            "minAge": 67,
+            "maxAge": 67,
+            "gender": "pria",
+            "annual": 48591000
+          },
+          {
+            "minAge": 67,
+            "maxAge": 67,
+            "gender": "wanita",
+            "annual": 40204000
+          },
+          {
+            "minAge": 68,
+            "maxAge": 68,
+            "gender": "pria",
+            "annual": 49005000
+          },
+          {
+            "minAge": 68,
+            "maxAge": 68,
+            "gender": "wanita",
+            "annual": 40546000
+          },
+          {
+            "minAge": 69,
+            "maxAge": 69,
+            "gender": "pria",
+            "annual": 50086000
+          },
+          {
+            "minAge": 69,
+            "maxAge": 69,
+            "gender": "wanita",
+            "annual": 41441000
+          },
+          {
+            "minAge": 70,
+            "maxAge": 70,
+            "gender": "pria",
+            "annual": 51167000
+          },
+          {
+            "minAge": 70,
+            "maxAge": 70,
+            "gender": "wanita",
+            "annual": 42335000
+          },
+          {
+            "minAge": 71,
+            "maxAge": 71,
+            "gender": "pria",
+            "annual": 60528000
+          },
+          {
+            "minAge": 71,
+            "maxAge": 71,
+            "gender": "wanita",
+            "annual": 50687000
+          },
+          {
+            "minAge": 72,
+            "maxAge": 72,
+            "gender": "pria",
+            "annual": 60536000
+          },
+          {
+            "minAge": 72,
+            "maxAge": 72,
+            "gender": "wanita",
+            "annual": 50094000
+          },
+          {
+            "minAge": 73,
+            "maxAge": 73,
+            "gender": "pria",
+            "annual": 60569000
+          },
+          {
+            "minAge": 73,
+            "maxAge": 73,
+            "gender": "wanita",
+            "annual": 50122000
+          },
+          {
+            "minAge": 74,
+            "maxAge": 74,
+            "gender": "pria",
+            "annual": 61068000
+          },
+          {
+            "minAge": 74,
+            "maxAge": 74,
+            "gender": "wanita",
+            "annual": 50534000
+          },
+          {
+            "minAge": 75,
+            "maxAge": 75,
+            "gender": "pria",
+            "annual": 63603000
+          },
+          {
+            "minAge": 75,
+            "maxAge": 75,
+            "gender": "wanita",
+            "annual": 52634000
+          }
+        ]
+      },
+      {
+        "id": "silver-pro",
+        "badge": "BEST PRICE, BEST VALUE",
+        "name": "Silver Pro",
+        "description": "Harga paling murah, premi paling worth it. Deductible hanya Rp 4 juta/rawat inap.",
+        "benefits": [
+          "Coverage Asia (kecuali SG, HK, JPN)",
+          "Cashless",
+          "1 Kamar 2 Ranjang (Kamar Kelas 1)",
+          "Limit Tahunan 6 Miliar + Booster 10 Miliar",
+          "Deductible Rp 4 juta/rawat inap"
+        ],
+        "annualDiscountMonths": 2,
+        "rates": [
+          {
+            "minAge": 0,
+            "maxAge": 0,
+            "gender": "pria",
+            "annual": 7728000
+          },
+          {
+            "minAge": 0,
+            "maxAge": 0,
+            "gender": "wanita",
+            "annual": 7245000
+          },
+          {
+            "minAge": 1,
+            "maxAge": 1,
+            "gender": "pria",
+            "annual": 7728000
+          },
+          {
+            "minAge": 1,
+            "maxAge": 1,
+            "gender": "wanita",
+            "annual": 7245000
+          },
+          {
+            "minAge": 2,
+            "maxAge": 2,
+            "gender": "pria",
+            "annual": 7728000
+          },
+          {
+            "minAge": 2,
+            "maxAge": 2,
+            "gender": "wanita",
+            "annual": 7245000
+          },
+          {
+            "minAge": 3,
+            "maxAge": 3,
+            "gender": "pria",
+            "annual": 7728000
+          },
+          {
+            "minAge": 3,
+            "maxAge": 3,
+            "gender": "wanita",
+            "annual": 7245000
+          },
+          {
+            "minAge": 4,
+            "maxAge": 4,
+            "gender": "pria",
+            "annual": 7728000
+          },
+          {
+            "minAge": 4,
+            "maxAge": 4,
+            "gender": "wanita",
+            "annual": 7245000
+          },
+          {
+            "minAge": 5,
+            "maxAge": 5,
+            "gender": "pria",
+            "annual": 4323000
+          },
+          {
+            "minAge": 5,
+            "maxAge": 5,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 6,
+            "maxAge": 6,
+            "gender": "pria",
+            "annual": 4323000
+          },
+          {
+            "minAge": 6,
+            "maxAge": 6,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 7,
+            "maxAge": 7,
+            "gender": "pria",
+            "annual": 4323000
+          },
+          {
+            "minAge": 7,
+            "maxAge": 7,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 8,
+            "maxAge": 8,
+            "gender": "pria",
+            "annual": 4323000
+          },
+          {
+            "minAge": 8,
+            "maxAge": 8,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 9,
+            "maxAge": 9,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 9,
+            "maxAge": 9,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 10,
+            "maxAge": 10,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 10,
+            "maxAge": 10,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 11,
+            "maxAge": 11,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 11,
+            "maxAge": 11,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 12,
+            "maxAge": 12,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 12,
+            "maxAge": 12,
+            "gender": "wanita",
+            "annual": 3760000
+          },
+          {
+            "minAge": 13,
+            "maxAge": 13,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 13,
+            "maxAge": 13,
+            "gender": "wanita",
+            "annual": 3761000
+          },
+          {
+            "minAge": 14,
+            "maxAge": 14,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 14,
+            "maxAge": 14,
+            "gender": "wanita",
+            "annual": 3761000
+          },
+          {
+            "minAge": 15,
+            "maxAge": 15,
+            "gender": "pria",
+            "annual": 4324000
+          },
+          {
+            "minAge": 15,
+            "maxAge": 15,
+            "gender": "wanita",
+            "annual": 3761000
+          },
+          {
+            "minAge": 16,
+            "maxAge": 16,
+            "gender": "pria",
+            "annual": 4325000
+          },
+          {
+            "minAge": 16,
+            "maxAge": 16,
+            "gender": "wanita",
+            "annual": 3761000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 17,
+            "gender": "pria",
+            "annual": 4325000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 17,
+            "gender": "wanita",
+            "annual": 3761000
+          },
+          {
+            "minAge": 18,
+            "maxAge": 18,
+            "gender": "pria",
+            "annual": 4325000
+          },
+          {
+            "minAge": 18,
+            "maxAge": 18,
+            "gender": "wanita",
+            "annual": 3761000
+          },
+          {
+            "minAge": 19,
+            "maxAge": 19,
+            "gender": "pria",
+            "annual": 5366000
+          },
+          {
+            "minAge": 19,
+            "maxAge": 19,
+            "gender": "wanita",
+            "annual": 5499000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 20,
+            "gender": "pria",
+            "annual": 5372000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 20,
+            "gender": "wanita",
+            "annual": 5506000
+          },
+          {
+            "minAge": 21,
+            "maxAge": 21,
+            "gender": "pria",
+            "annual": 5378000
+          },
+          {
+            "minAge": 21,
+            "maxAge": 21,
+            "gender": "wanita",
+            "annual": 5512000
+          },
+          {
+            "minAge": 22,
+            "maxAge": 22,
+            "gender": "pria",
+            "annual": 5384000
+          },
+          {
+            "minAge": 22,
+            "maxAge": 22,
+            "gender": "wanita",
+            "annual": 5518000
+          },
+          {
+            "minAge": 23,
+            "maxAge": 23,
+            "gender": "pria",
+            "annual": 5390000
+          },
+          {
+            "minAge": 23,
+            "maxAge": 23,
+            "gender": "wanita",
+            "annual": 5524000
+          },
+          {
+            "minAge": 24,
+            "maxAge": 24,
+            "gender": "pria",
+            "annual": 5396000
+          },
+          {
+            "minAge": 24,
+            "maxAge": 24,
+            "gender": "wanita",
+            "annual": 5530000
+          },
+          {
+            "minAge": 25,
+            "maxAge": 25,
+            "gender": "pria",
+            "annual": 5403000
+          },
+          {
+            "minAge": 25,
+            "maxAge": 25,
+            "gender": "wanita",
+            "annual": 5537000
+          },
+          {
+            "minAge": 26,
+            "maxAge": 26,
+            "gender": "pria",
+            "annual": 5517000
+          },
+          {
+            "minAge": 26,
+            "maxAge": 26,
+            "gender": "wanita",
+            "annual": 5776000
+          },
+          {
+            "minAge": 27,
+            "maxAge": 27,
+            "gender": "pria",
+            "annual": 5539000
+          },
+          {
+            "minAge": 27,
+            "maxAge": 27,
+            "gender": "wanita",
+            "annual": 5800000
+          },
+          {
+            "minAge": 28,
+            "maxAge": 28,
+            "gender": "pria",
+            "annual": 5562000
+          },
+          {
+            "minAge": 28,
+            "maxAge": 28,
+            "gender": "wanita",
+            "annual": 5824000
+          },
+          {
+            "minAge": 29,
+            "maxAge": 29,
+            "gender": "pria",
+            "annual": 5586000
+          },
+          {
+            "minAge": 29,
+            "maxAge": 29,
+            "gender": "wanita",
+            "annual": 5848000
+          },
+          {
+            "minAge": 30,
+            "maxAge": 30,
+            "gender": "pria",
+            "annual": 5608000
+          },
+          {
+            "minAge": 30,
+            "maxAge": 30,
+            "gender": "wanita",
+            "annual": 5872000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 31,
+            "gender": "pria",
+            "annual": 5620000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 31,
+            "gender": "wanita",
+            "annual": 6180000
+          },
+          {
+            "minAge": 32,
+            "maxAge": 32,
+            "gender": "pria",
+            "annual": 5650000
+          },
+          {
+            "minAge": 32,
+            "maxAge": 32,
+            "gender": "wanita",
+            "annual": 6214000
+          },
+          {
+            "minAge": 33,
+            "maxAge": 33,
+            "gender": "pria",
+            "annual": 5681000
+          },
+          {
+            "minAge": 33,
+            "maxAge": 33,
+            "gender": "wanita",
+            "annual": 6248000
+          },
+          {
+            "minAge": 34,
+            "maxAge": 34,
+            "gender": "pria",
+            "annual": 5712000
+          },
+          {
+            "minAge": 34,
+            "maxAge": 34,
+            "gender": "wanita",
+            "annual": 6282000
+          },
+          {
+            "minAge": 35,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 5742000
+          },
+          {
+            "minAge": 35,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 6315000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 36,
+            "gender": "pria",
+            "annual": 6282000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 36,
+            "gender": "wanita",
+            "annual": 6936000
+          },
+          {
+            "minAge": 37,
+            "maxAge": 37,
+            "gender": "pria",
+            "annual": 6334000
+          },
+          {
+            "minAge": 37,
+            "maxAge": 37,
+            "gender": "wanita",
+            "annual": 6993000
+          },
+          {
+            "minAge": 38,
+            "maxAge": 38,
+            "gender": "pria",
+            "annual": 6386000
+          },
+          {
+            "minAge": 38,
+            "maxAge": 38,
+            "gender": "wanita",
+            "annual": 7051000
+          },
+          {
+            "minAge": 39,
+            "maxAge": 39,
+            "gender": "pria",
+            "annual": 6439000
+          },
+          {
+            "minAge": 39,
+            "maxAge": 39,
+            "gender": "wanita",
+            "annual": 7109000
+          },
+          {
+            "minAge": 40,
+            "maxAge": 40,
+            "gender": "pria",
+            "annual": 6489000
+          },
+          {
+            "minAge": 40,
+            "maxAge": 40,
+            "gender": "wanita",
+            "annual": 7165000
+          },
+          {
+            "minAge": 41,
+            "maxAge": 41,
+            "gender": "pria",
+            "annual": 7300000
+          },
+          {
+            "minAge": 41,
+            "maxAge": 41,
+            "gender": "wanita",
+            "annual": 8312000
+          },
+          {
+            "minAge": 42,
+            "maxAge": 42,
+            "gender": "pria",
+            "annual": 8171000
+          },
+          {
+            "minAge": 42,
+            "maxAge": 42,
+            "gender": "wanita",
+            "annual": 8821000
+          },
+          {
+            "minAge": 43,
+            "maxAge": 43,
+            "gender": "pria",
+            "annual": 8188000
+          },
+          {
+            "minAge": 43,
+            "maxAge": 43,
+            "gender": "wanita",
+            "annual": 8839000
+          },
+          {
+            "minAge": 44,
+            "maxAge": 44,
+            "gender": "pria",
+            "annual": 8205000
+          },
+          {
+            "minAge": 44,
+            "maxAge": 44,
+            "gender": "wanita",
+            "annual": 8857000
+          },
+          {
+            "minAge": 45,
+            "maxAge": 45,
+            "gender": "pria",
+            "annual": 8555000
+          },
+          {
+            "minAge": 45,
+            "maxAge": 45,
+            "gender": "wanita",
+            "annual": 9235000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 46,
+            "gender": "pria",
+            "annual": 9785000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 46,
+            "gender": "wanita",
+            "annual": 10294000
+          },
+          {
+            "minAge": 47,
+            "maxAge": 47,
+            "gender": "pria",
+            "annual": 10360000
+          },
+          {
+            "minAge": 47,
+            "maxAge": 47,
+            "gender": "wanita",
+            "annual": 10900000
+          },
+          {
+            "minAge": 48,
+            "maxAge": 48,
+            "gender": "pria",
+            "annual": 10915000
+          },
+          {
+            "minAge": 48,
+            "maxAge": 48,
+            "gender": "wanita",
+            "annual": 11484000
+          },
+          {
+            "minAge": 49,
+            "maxAge": 49,
+            "gender": "pria",
+            "annual": 11213000
+          },
+          {
+            "minAge": 49,
+            "maxAge": 49,
+            "gender": "wanita",
+            "annual": 11797000
+          },
+          {
+            "minAge": 50,
+            "maxAge": 50,
+            "gender": "pria",
+            "annual": 11512000
+          },
+          {
+            "minAge": 50,
+            "maxAge": 50,
+            "gender": "wanita",
+            "annual": 12111000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 51,
+            "gender": "pria",
+            "annual": 15039000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 51,
+            "gender": "wanita",
+            "annual": 15298000
+          },
+          {
+            "minAge": 52,
+            "maxAge": 52,
+            "gender": "pria",
+            "annual": 15184000
+          },
+          {
+            "minAge": 52,
+            "maxAge": 52,
+            "gender": "wanita",
+            "annual": 15445000
+          },
+          {
+            "minAge": 53,
+            "maxAge": 53,
+            "gender": "pria",
+            "annual": 15330000
+          },
+          {
+            "minAge": 53,
+            "maxAge": 53,
+            "gender": "wanita",
+            "annual": 15593000
+          },
+          {
+            "minAge": 54,
+            "maxAge": 54,
+            "gender": "pria",
+            "annual": 15477000
+          },
+          {
+            "minAge": 54,
+            "maxAge": 54,
+            "gender": "wanita",
+            "annual": 15743000
+          },
+          {
+            "minAge": 55,
+            "maxAge": 55,
+            "gender": "pria",
+            "annual": 15617000
+          },
+          {
+            "minAge": 55,
+            "maxAge": 55,
+            "gender": "wanita",
+            "annual": 15885000
+          },
+          {
+            "minAge": 56,
+            "maxAge": 56,
+            "gender": "pria",
+            "annual": 17393000
+          },
+          {
+            "minAge": 56,
+            "maxAge": 56,
+            "gender": "wanita",
+            "annual": 16568000
+          },
+          {
+            "minAge": 57,
+            "maxAge": 57,
+            "gender": "pria",
+            "annual": 17966000
+          },
+          {
+            "minAge": 57,
+            "maxAge": 57,
+            "gender": "wanita",
+            "annual": 17114000
+          },
+          {
+            "minAge": 58,
+            "maxAge": 58,
+            "gender": "pria",
+            "annual": 17999000
+          },
+          {
+            "minAge": 58,
+            "maxAge": 58,
+            "gender": "wanita",
+            "annual": 17145000
+          },
+          {
+            "minAge": 59,
+            "maxAge": 59,
+            "gender": "pria",
+            "annual": 18032000
+          },
+          {
+            "minAge": 59,
+            "maxAge": 59,
+            "gender": "wanita",
+            "annual": 17176000
+          },
+          {
+            "minAge": 60,
+            "maxAge": 60,
+            "gender": "pria",
+            "annual": 18569000
+          },
+          {
+            "minAge": 60,
+            "maxAge": 60,
+            "gender": "wanita",
+            "annual": 17688000
+          },
+          {
+            "minAge": 61,
+            "maxAge": 61,
+            "gender": "pria",
+            "annual": 25335000
+          },
+          {
+            "minAge": 61,
+            "maxAge": 61,
+            "gender": "wanita",
+            "annual": 23113000
+          },
+          {
+            "minAge": 62,
+            "maxAge": 62,
+            "gender": "pria",
+            "annual": 25682000
+          },
+          {
+            "minAge": 62,
+            "maxAge": 62,
+            "gender": "wanita",
+            "annual": 23430000
+          },
+          {
+            "minAge": 63,
+            "maxAge": 63,
+            "gender": "pria",
+            "annual": 26035000
+          },
+          {
+            "minAge": 63,
+            "maxAge": 63,
+            "gender": "wanita",
+            "annual": 23752000
+          },
+          {
+            "minAge": 64,
+            "maxAge": 64,
+            "gender": "pria",
+            "annual": 26393000
+          },
+          {
+            "minAge": 64,
+            "maxAge": 64,
+            "gender": "wanita",
+            "annual": 24078000
+          },
+          {
+            "minAge": 65,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 26726000
+          },
+          {
+            "minAge": 65,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 24383000
+          },
+          {
+            "minAge": 66,
+            "maxAge": 66,
+            "gender": "pria",
+            "annual": 32314000
+          },
+          {
+            "minAge": 66,
+            "maxAge": 66,
+            "gender": "wanita",
+            "annual": 28408000
+          },
+          {
+            "minAge": 67,
+            "maxAge": 67,
+            "gender": "pria",
+            "annual": 32320000
+          },
+          {
+            "minAge": 67,
+            "maxAge": 67,
+            "gender": "wanita",
+            "annual": 28413000
+          },
+          {
+            "minAge": 68,
+            "maxAge": 68,
+            "gender": "pria",
+            "annual": 32595000
+          },
+          {
+            "minAge": 68,
+            "maxAge": 68,
+            "gender": "wanita",
+            "annual": 28655000
+          },
+          {
+            "minAge": 69,
+            "maxAge": 69,
+            "gender": "pria",
+            "annual": 33314000
+          },
+          {
+            "minAge": 69,
+            "maxAge": 69,
+            "gender": "wanita",
+            "annual": 29287000
+          },
+          {
+            "minAge": 70,
+            "maxAge": 70,
+            "gender": "pria",
+            "annual": 34034000
+          },
+          {
+            "minAge": 70,
+            "maxAge": 70,
+            "gender": "wanita",
+            "annual": 29919000
+          },
+          {
+            "minAge": 71,
+            "maxAge": 71,
+            "gender": "pria",
+            "annual": 43074000
+          },
+          {
+            "minAge": 71,
+            "maxAge": 71,
+            "gender": "wanita",
+            "annual": 38744000
+          },
+          {
+            "minAge": 72,
+            "maxAge": 72,
+            "gender": "pria",
+            "annual": 40493000
+          },
+          {
+            "minAge": 72,
+            "maxAge": 72,
+            "gender": "wanita",
+            "annual": 34691000
+          },
+          {
+            "minAge": 73,
+            "maxAge": 73,
+            "gender": "pria",
+            "annual": 40515000
+          },
+          {
+            "minAge": 73,
+            "maxAge": 73,
+            "gender": "wanita",
+            "annual": 34710000
+          },
+          {
+            "minAge": 74,
+            "maxAge": 74,
+            "gender": "pria",
+            "annual": 40849000
+          },
+          {
+            "minAge": 74,
+            "maxAge": 74,
+            "gender": "wanita",
+            "annual": 34996000
+          },
+          {
+            "minAge": 75,
+            "maxAge": 75,
+            "gender": "pria",
+            "annual": 44544000
+          },
+          {
+            "minAge": 75,
+            "maxAge": 75,
+            "gender": "wanita",
+            "annual": 36449000
+          }
+        ]
+      }
+    ]
+  },
+  "asuransi-jiwa": {
+    "productName": "Asuransi Jiwa (Warisan)",
+    "inputs": {
+      "ageMin": 17,
+      "ageMax": 65,
+      "genders": [
+        "pria",
+        "wanita"
+      ]
+    },
+    "tiers": [
+      {
+        "id": "dasar",
+        "badge": "SANTUNAN DASAR",
+        "name": "Dasar",
+        "description": "Perlindungan jiwa dasar untuk fondasi warisan keluarga.",
+        "benefits": [
+          "Uang pertanggungan Rp 500 juta",
+          "Berlaku hingga usia 65 tahun"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 17,
+            "maxAge": 30,
+            "gender": "pria",
+            "annual": 1440000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 30,
+            "gender": "wanita",
+            "annual": 1320000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 45,
+            "gender": "pria",
+            "annual": 2160000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 45,
+            "gender": "wanita",
+            "annual": 1980000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 3720000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 3420000
+          }
+        ]
+      },
+      {
+        "id": "menengah",
+        "badge": "SANTUNAN MENENGAH",
+        "name": "Menengah",
+        "description": "Uang pertanggungan lebih besar untuk cakupan warisan yang lebih luas.",
+        "benefits": [
+          "Uang pertanggungan Rp 1 miliar",
+          "Berlaku hingga usia 65 tahun"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 17,
+            "maxAge": 30,
+            "gender": "pria",
+            "annual": 2520000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 30,
+            "gender": "wanita",
+            "annual": 2340000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 45,
+            "gender": "pria",
+            "annual": 3840000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 45,
+            "gender": "wanita",
+            "annual": 3540000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 6480000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 6000000
+          }
+        ]
+      },
+      {
+        "id": "premium",
+        "badge": "SANTUNAN PREMIUM",
+        "name": "Premium",
+        "description": "Perlindungan maksimal untuk warisan keluarga jangka panjang.",
+        "benefits": [
+          "Uang pertanggungan Rp 2 miliar",
+          "Berlaku hingga usia 65 tahun"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 17,
+            "maxAge": 30,
+            "gender": "pria",
+            "annual": 4560000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 30,
+            "gender": "wanita",
+            "annual": 4200000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 45,
+            "gender": "pria",
+            "annual": 7080000
+          },
+          {
+            "minAge": 31,
+            "maxAge": 45,
+            "gender": "wanita",
+            "annual": 6540000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 11760000
+          },
+          {
+            "minAge": 46,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 10920000
+          }
+        ]
+      }
+    ]
+  },
+  "asuransi-dana-pensiun": {
+    "productName": "Asuransi Dana Pensiun",
+    "inputs": {
+      "ageMin": 20,
+      "ageMax": 60,
+      "genders": [
+        "pria",
+        "wanita"
+      ]
+    },
+    "tiers": [
+      {
+        "id": "pensiun-55",
+        "badge": "PENSIUN USIA 55",
+        "name": "Cair di 55 Tahun",
+        "description": "Dana pensiun cair lebih awal saat usia 55 tahun.",
+        "benefits": [
+          "Target dana Rp 500 juta saat usia 55",
+          "Ahli waris menerima dana jika meninggal sebelum 55"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 20,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 4200000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 3960000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 60,
+            "gender": "pria",
+            "annual": 7440000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 60,
+            "gender": "wanita",
+            "annual": 6960000
+          }
+        ]
+      },
+      {
+        "id": "pensiun-60",
+        "badge": "PENSIUN USIA 60",
+        "name": "Cair di 60 Tahun",
+        "description": "Dana pensiun cair saat usia pensiun standar, 60 tahun.",
+        "benefits": [
+          "Target dana Rp 750 juta saat usia 60",
+          "Ahli waris menerima dana jika meninggal sebelum 60"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 20,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 3360000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 3180000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 60,
+            "gender": "pria",
+            "annual": 5880000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 60,
+            "gender": "wanita",
+            "annual": 5520000
+          }
+        ]
+      },
+      {
+        "id": "pensiun-75",
+        "badge": "PENSIUN USIA 75",
+        "name": "Cair di 75 Tahun",
+        "description": "Dana pensiun jangka paling panjang, target dana terbesar.",
+        "benefits": [
+          "Target dana Rp 1,2 miliar saat usia 75",
+          "Ahli waris menerima dana jika meninggal sebelum 75"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 20,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 2520000
+          },
+          {
+            "minAge": 20,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 2400000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 60,
+            "gender": "pria",
+            "annual": 4320000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 60,
+            "gender": "wanita",
+            "annual": 4080000
+          }
+        ]
+      }
+    ]
+  },
+  "asuransi-kritis": {
+    "productName": "Asuransi Tunai Sakit Kritis",
+    "inputs": {
+      "ageMin": 17,
+      "ageMax": 65,
+      "genders": [
+        "pria",
+        "wanita"
+      ]
+    },
+    "tiers": [
+      {
+        "id": "dasar",
+        "badge": "SANTUNAN DASAR",
+        "name": "Dasar",
+        "description": "Santunan tunai dasar saat terdiagnosa penyakit kritis.",
+        "benefits": [
+          "Santunan tunai Rp 250 juta",
+          "Mencakup 49 kondisi penyakit kritis"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 17,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 1800000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 1980000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 50,
+            "gender": "pria",
+            "annual": 3120000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 50,
+            "gender": "wanita",
+            "annual": 3360000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 5040000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 5400000
+          }
+        ]
+      },
+      {
+        "id": "menengah",
+        "badge": "SANTUNAN MENENGAH",
+        "name": "Menengah",
+        "description": "Santunan tunai lebih besar untuk menutup biaya di luar rumah sakit.",
+        "benefits": [
+          "Santunan tunai Rp 500 juta",
+          "Mencakup 49 kondisi penyakit kritis"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 17,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 3240000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 3540000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 50,
+            "gender": "pria",
+            "annual": 5520000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 50,
+            "gender": "wanita",
+            "annual": 5940000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 8880000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 9480000
+          }
+        ]
+      },
+      {
+        "id": "premium",
+        "badge": "SANTUNAN PREMIUM",
+        "name": "Premium",
+        "description": "Perlindungan maksimal, santunan tunai terbesar.",
+        "benefits": [
+          "Santunan tunai Rp 1 miliar",
+          "Mencakup 49 kondisi penyakit kritis"
+        ],
+        "annualDiscountMonths": 1,
+        "rates": [
+          {
+            "minAge": 17,
+            "maxAge": 35,
+            "gender": "pria",
+            "annual": 5880000
+          },
+          {
+            "minAge": 17,
+            "maxAge": 35,
+            "gender": "wanita",
+            "annual": 6360000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 50,
+            "gender": "pria",
+            "annual": 9960000
+          },
+          {
+            "minAge": 36,
+            "maxAge": 50,
+            "gender": "wanita",
+            "annual": 10680000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 65,
+            "gender": "pria",
+            "annual": 16080000
+          },
+          {
+            "minAge": 51,
+            "maxAge": 65,
+            "gender": "wanita",
+            "annual": 17040000
+          }
+        ]
+      }
+    ]
+  }
+}
