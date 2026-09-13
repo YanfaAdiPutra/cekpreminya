@@ -51,6 +51,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col bg-white text-slate-900">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-white focus:p-4"
+        >
+          Lewati ke konten
+        </a>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -58,7 +64,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           }}
         />
         <Header />
-        <main className="flex-1">{children}</main>
+        <main id="main-content" className="flex-1">
+          {children}
+        </main>
         <Footer />
         <WhatsAppFloatingButton />
       </body>

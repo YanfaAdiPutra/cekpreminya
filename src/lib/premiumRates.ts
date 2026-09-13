@@ -57,17 +57,29 @@ export const quoteProduct = (
   gender: Gender,
 ): TierPricing[] => {
   const product = PREMIUM_RATES[productSlug];
-  if (!product) {
+  if (
+    !product ||
+    !Number.isInteger(age) ||
+    age < product.inputs.ageMin ||
+    age > product.inputs.ageMax ||
+    !product.inputs.genders.includes(gender)
+  ) {
     return [];
   }
 
   const quotes: TierPricing[] = [];
   for (const tier of product.tiers) {
+    if (
+      productSlug === "asuransi-dana-pensiun" &&
+      age >= Number(tier.id.replace("pensiun-", ""))
+    )
+      continue;
     const row = findRate(tier, age, gender);
     if (!row) {
       continue;
     }
     const monthsCharged = 12 - tier.annualDiscountMonths;
+    if (monthsCharged <= 0 || monthsCharged > 12 || row.annual <= 0) continue;
     quotes.push({
       tier,
       annual: row.annual,

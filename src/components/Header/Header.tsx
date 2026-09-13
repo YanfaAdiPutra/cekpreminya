@@ -2,9 +2,13 @@
 
 import { useCallback, useEffect, useState } from "react";
 import Link from "next/link";
-import { SECTION_LINKS, SITE } from "@/lib/site-config";
+import { usePathname } from "next/navigation";
+import { SECTION_LINKS, SITE, withBasePath } from "@/lib/site-config";
 
 export const Header = (): React.ReactElement => {
+  const pathname = usePathname();
+  const sectionHref = (href: string) =>
+    pathname === "/" ? href : withBasePath(`/${href}`);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [activeHref, setActiveHref] = useState<string | null>(null);
@@ -20,6 +24,7 @@ export const Header = (): React.ReactElement => {
   useEffect(() => {
     const handleScroll = (): void => {
       setIsScrolled(window.scrollY > 24);
+      if (window.scrollY < 200) setActiveHref(null);
     };
     handleScroll();
     window.addEventListener("scroll", handleScroll, { passive: true });
@@ -47,7 +52,7 @@ export const Header = (): React.ReactElement => {
 
     sections.forEach((section) => observer.observe(section));
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   return (
     <header
@@ -57,23 +62,34 @@ export const Header = (): React.ReactElement => {
           : "border-b border-transparent bg-white/70 backdrop-blur"
       }`}
     >
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
+      <div className="page-container flex items-center justify-between gap-4 py-4">
         <Link
           href="/"
           onClick={closeMobileMenu}
           className="flex items-baseline gap-2"
         >
-          <span className="text-lg font-bold text-brand">{SITE.name}</span>
+          <span className="flex items-center gap-2 text-lg font-bold tracking-tight text-brand">
+            <span
+              aria-hidden="true"
+              className="grid h-8 w-8 place-items-center rounded-full bg-brand text-base text-white"
+            >
+              c.
+            </span>
+            cekpreminya<span className="text-brand-cyan">.</span>
+          </span>
           <span className="hidden text-xs text-slate-500 sm:inline">
             MSIG Life
           </span>
         </Link>
 
-        <nav className="hidden items-center gap-6 text-sm font-medium text-slate-600 lg:flex">
+        <nav
+          className="hidden items-center gap-5 text-xs font-medium text-slate-600 lg:flex"
+          aria-label="Navigasi utama"
+        >
           {SECTION_LINKS.map((link) => (
             <a
               key={link.href}
-              href={link.href}
+              href={sectionHref(link.href)}
               className={`transition-colors hover:text-brand ${
                 activeHref === link.href ? "text-brand" : ""
               }`}
@@ -83,9 +99,9 @@ export const Header = (): React.ReactElement => {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
+        <div className="hidden items-center gap-3 xl:flex">
           <a
-            href="#cek-premi"
+            href={sectionHref("#cek-premi")}
             className="rounded-full bg-brand px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
           >
             Cek Premi
@@ -119,7 +135,7 @@ export const Header = (): React.ReactElement => {
             {SECTION_LINKS.map((link) => (
               <li key={link.href}>
                 <a
-                  href={link.href}
+                  href={sectionHref(link.href)}
                   onClick={closeMobileMenu}
                   className="block rounded-lg px-3 py-2 transition-colors hover:bg-brand/5 hover:text-brand"
                 >
@@ -131,7 +147,7 @@ export const Header = (): React.ReactElement => {
 
           <div className="mt-4 flex flex-col gap-2">
             <a
-              href="#cek-premi"
+              href={sectionHref("#cek-premi")}
               onClick={closeMobileMenu}
               className="rounded-full bg-brand px-4 py-2.5 text-center text-sm font-semibold text-white transition-colors hover:bg-brand-dark"
             >

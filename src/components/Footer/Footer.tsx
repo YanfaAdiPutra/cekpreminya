@@ -1,4 +1,5 @@
 import { SECTION_LINKS, SITE } from "@/lib/site-config";
+import Link from "next/link";
 
 export const Footer = (): React.ReactElement => {
   const year = new Date().getFullYear();
@@ -19,9 +20,9 @@ export const Footer = (): React.ReactElement => {
             <ul className="mt-2 space-y-1">
               {SECTION_LINKS.map((link) => (
                 <li key={link.href}>
-                  <a href={link.href} className="hover:text-brand">
+                  <Link href={`/${link.href}`} className="hover:text-brand">
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -58,6 +59,14 @@ export const Footer = (): React.ReactElement => {
             Life yang beroperasi secara independen. Situs ini bukan situs resmi
             PT Asuransi MSIG Life Indonesia.
           </p>
+          <div className="mt-4 flex gap-5">
+            <Link href="/privasi/" className="underline">
+              Privasi
+            </Link>
+            <Link href="/panduan-klaim/" className="underline">
+              Panduan klaim
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

@@ -29,6 +29,7 @@ export const withBasePath = (path: string): string => {
 };
 
 export const SECTION_LINKS: NavLink[] = [
+  { href: "#cek-kebutuhan", label: "Cek Kebutuhan" },
   { href: "#produk", label: "Produk" },
   { href: "#cek-premi", label: "Cek Premi" },
   { href: "#faq", label: "FAQ" },
